@@ -1,0 +1,16 @@
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background: var(--secondary-color-pale-green);
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+  z-index: 100;
+
+  .active {
+    .navbar-icon {
+      fill: var(--accent-color-orange);
+    }
+  }
+}

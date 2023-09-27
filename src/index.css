@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: white;
+  --accent-color-orange: #ee7d52;
+  --secondary-color-pale-green: #edf2e2;
+  --secondary-color-green: #89a44c;
+  --dark-brown-color: #80513e;
+  --white-color: #fff;
+  --gray-color: #8f8f8f;
+  --warm-beige-color: #e5d2c7;
+}

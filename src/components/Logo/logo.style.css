@@ -1,0 +1,19 @@
+.home-logo {
+  .round-shape {
+    border-radius: 50%;
+    width: 7.75rem;
+    height: 7.75rem;
+    background-color: var(--warm-beige-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(240, 229, 216, 0.5);
+
+    .logo-midjourney {
+      width: 108px;
+      height: 90px;
+
+      object-fit: cover;
+    }
+  }
+}

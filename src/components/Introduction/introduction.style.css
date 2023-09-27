@@ -1,0 +1,12 @@
+.home-text {
+  /* border: 1px solid purple; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .code-snippet {
+    width: 90%;
+    z-index: 10;
+  }
+}
