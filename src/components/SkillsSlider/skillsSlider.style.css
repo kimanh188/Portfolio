@@ -1,8 +1,19 @@
-.carousel-container {
+.tech-skills {
   margin: 4.5em 0;
 
-  .carousel {
-    white-space: nowrap;
-    cursor: pointer;
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+
+    .grid-item {
+      margin: 1em 0;
+      text-align: center;
+      display: flex;
+      justify-content: baseline;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
   }
 }
