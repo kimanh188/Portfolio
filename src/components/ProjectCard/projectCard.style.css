@@ -1,0 +1,43 @@
+.project-container {
+  margin: 1em auto;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  .project-img-container img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 1em;
+  }
+
+  .project-overview {
+    .project-intro {
+      text-align: justify;
+
+      .project-name {
+        margin: 0.5em;
+      }
+    }
+
+    .project-used-tech {
+      margin: 0.5em 0 0.75em 0;
+
+      .fa-brands {
+        margin-left: 0.5em;
+        font-size: 1.5em;
+      }
+    }
+
+    .project-buttons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 0.5em;
+    }
+  }
+}

@@ -1,9 +1,11 @@
-.resume-btn {
+.linkOut-btn {
+  text-decoration: none;
   display: flex;
+
   justify-content: center;
   align-items: center;
   gap: 0.5em;
-  margin: 1.5em 0;
+  margin: 1.5em 0 0 0;
   padding: 0.5em 1.5em;
 
   border: none;
@@ -19,12 +21,12 @@
     background-color: var(--accent-color-orange);
     color: white;
 
-    .resume-btn-icon {
+    .btn-icon {
       fill: white;
     }
   }
 
-  .resume-btn-icon {
+  .btn-icon {
     fill: var(--accent-color-orange);
   }
 }

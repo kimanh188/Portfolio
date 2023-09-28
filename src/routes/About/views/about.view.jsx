@@ -1,7 +1,7 @@
 import "../about.style.css";
 
 import { HeaderButtonGroup } from "./../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component";
-import { BtnDownloadResume } from "./../../../components/Buttons/btnDownloadResume/btnDownloadResume.component";
+import { BtnLinkOut } from "../../../components/Buttons/btnLinkOut/btnLinkOut.component";
 import { SkillsSlider } from "./../../../components/SkillsSlider/skillsSlider.component";
 
 export function AboutView() {
@@ -25,7 +25,11 @@ export function AboutView() {
           also gives me great enjoyment. I&apos;m excited to connect with
           companies and colleagues that inspire me!
         </p>
-        <BtnDownloadResume />
+        <BtnLinkOut
+          link={"/"}
+          text={"View my resume "}
+          icon={<i className="btn-icon fa-solid fa-download"></i>}
+        />
         <SkillsSlider />
       </section>
     </>

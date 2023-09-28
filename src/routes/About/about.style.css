@@ -1,6 +1,5 @@
 .about {
-  padding: 1.5em;
-  border: 1px solid var(--accent-color-orange);
+  padding: 2em;
 
   .about-title {
     text-align: center;
