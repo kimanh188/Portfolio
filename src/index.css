@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Inria+Sans:wght@400;700&family=Inria+Serif:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,4 +15,8 @@
   --white-color: #fff;
   --gray-color: #8f8f8f;
   --warm-beige-color: #e5d2c7;
+}
+
+body {
+  font-family: "Inria Sans", sans-serif;
 }

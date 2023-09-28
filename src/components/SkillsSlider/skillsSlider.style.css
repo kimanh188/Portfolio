@@ -1,0 +1,8 @@
+.carousel-container {
+  margin: 4.5em 0;
+
+  .carousel {
+    white-space: nowrap;
+    cursor: pointer;
+  }
+}
