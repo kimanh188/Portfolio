@@ -36,6 +36,7 @@
       grid-auto-columns: calc((100% / 4) - 0.8em);
       gap: 1em;
       overflow: hidden;
+      scroll-behavior: smooth;
 
       .skill-card {
         padding: 0.5em;

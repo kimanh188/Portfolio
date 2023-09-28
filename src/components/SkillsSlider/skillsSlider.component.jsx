@@ -1,33 +1,77 @@
 import "./skillsSlider.style.css";
+import { useEffect } from "react";
 
 export function SkillsSlider() {
-  const carousel = document.querySelector(".carousel");
+  useEffect(() => {
+    const carousel = document.querySelector(".carousel");
+    const arrowButtons = document.querySelectorAll(".fa-solid");
 
-  let isDragging = false;
+    if (!carousel) {
+      console.error("Carousel element not found.");
+      return; // Exit early if carousel element is not found
+    }
 
-  const dragStart = () => {
-    isDragging = true;
-    carousel.classList.add("dragging");
-  };
+    const firstCardElement = carousel.querySelector(".skill-card");
 
-  const dragging = (event) => {
-    if (!isDragging) return;
-    carousel.scrollLeft = event.pageX;
-  };
+    if (firstCardElement instanceof HTMLElement) {
+      const firstCardWidth = firstCardElement.offsetWidth;
 
-  carousel.addEventListener("mousedown", dragStart);
-  carousel.addEventListener("mousemove", dragging);
+      // Add event listeners to the arrow buttons
+      arrowButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          carousel.scrollLeft +=
+            btn.id === "left" ? -firstCardWidth : firstCardWidth;
+        });
+      });
+    } else {
+      console.error("The element with class 'skill-card' was not found.");
+    }
+
+    let isDragging = false,
+      startX,
+      startScrollLeft;
+
+    const dragStart = (event) => {
+      isDragging = true;
+      carousel.classList.add("dragging");
+      // Records the initial cursor and scroll position
+      startX = event.pageX;
+      startScrollLeft = carousel.scrollLeft;
+    };
+
+    const dragging = (event) => {
+      if (!isDragging) return;
+      // Updates scroll position based on the cursor movement
+      carousel.scrollLeft = startScrollLeft - (event.pageX - startX);
+    };
+
+    const dragStop = () => {
+      isDragging = false;
+      carousel.classList.remove("dragging");
+    };
+
+    carousel.addEventListener("mousedown", dragStart);
+    carousel.addEventListener("mousemove", dragging);
+    document.addEventListener("mouseup", dragStop);
+
+    // Cleanup event listeners when component is unmounted
+    return () => {
+      carousel.removeEventListener("mousedown", dragStart);
+      carousel.removeEventListener("mousemove", dragging);
+      document.removeEventListener("mouseup", dragStop);
+    };
+  }, []);
 
   return (
     <div className="tech-skills">
       <div className="carousel-container">
-        <i className="fa-solid fa-angle-left"></i>
+        <i id="left" className="fa-solid fa-angle-left"></i>
 
         <ul className="carousel">
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
@@ -46,7 +90,7 @@ export function SkillsSlider() {
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
@@ -65,7 +109,7 @@ export function SkillsSlider() {
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
@@ -84,7 +128,7 @@ export function SkillsSlider() {
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
@@ -109,7 +153,7 @@ export function SkillsSlider() {
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 510 512"
@@ -128,7 +172,7 @@ export function SkillsSlider() {
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 15 15"
@@ -149,7 +193,7 @@ export function SkillsSlider() {
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
@@ -174,7 +218,7 @@ export function SkillsSlider() {
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
@@ -200,7 +244,7 @@ export function SkillsSlider() {
           <li className="skill-card">
             <svg
               className="skill-card__icon"
-              draggable="false"
+              {...{ draggable: "false" }}
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
@@ -216,7 +260,7 @@ export function SkillsSlider() {
             <span className="skill-card__text">Bootstrap</span>
           </li>
         </ul>
-        <i className="fa-solid fa-angle-right"></i>
+        <i id="right" className="fa-solid fa-angle-right"></i>
       </div>
     </div>
   );
