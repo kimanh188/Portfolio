@@ -4,6 +4,7 @@ import { HeaderButtonGroup } from "./../../../components/Buttons/HeaderButtonGro
 import { NavBarWrapper } from "./../../../components/NavBar/navbar.component";
 import { Logo } from "./../../../components/Logo/logo.component";
 import { Introduction } from "./../../../components/Introduction/introduction.component";
+import { FlyingCircles } from "./../../../components/FlyingCirclesAnimation/flyingCircles.component";
 
 export function HomeView() {
   return (
@@ -12,19 +13,9 @@ export function HomeView() {
 
       <div className="home-content">
         <Logo />
-        <div className="animation-area">
-          <Introduction />
-          <div className="circles">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
+        <Introduction />
       </div>
-
+      <FlyingCircles />
       <NavBarWrapper />
     </section>
   );

@@ -1,4 +1,6 @@
 .home-logo {
+  z-index: 10;
+
   .round-shape {
     border-radius: 50%;
     width: 7.75rem;

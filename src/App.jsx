@@ -38,14 +38,14 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const routeChangeHandler = () => {
       // Display loader only for home page ("/" or "/home") - true
-      setLoading(
+      /*  setLoading(
         window.location.pathname === "/" || window.location.pathname === "/home"
-      );
+      ); */
       setTimeout(() => {
         setLoading(false); // Hide loader after 4.5 seconds
       }, 4500);

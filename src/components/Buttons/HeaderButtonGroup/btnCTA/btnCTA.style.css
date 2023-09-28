@@ -56,16 +56,16 @@
   transform: translateX(-30%);
 }
 
-.btn-content:hover #arrow-icon-three {
+.btn-content #arrow-icon-three {
   animation: color_anim 1s infinite 0.2s;
 }
 
-.btn-content:hover #arrow-icon-one {
+.btn-content #arrow-icon-one {
   transform: translateX(0%);
   animation: color_anim 1s infinite 0.6s;
 }
 
-.btn-content:hover #arrow-icon-two {
+.btn-content #arrow-icon-two {
   transform: translateX(0%);
   animation: color_anim 1s infinite 0.4s;
 }

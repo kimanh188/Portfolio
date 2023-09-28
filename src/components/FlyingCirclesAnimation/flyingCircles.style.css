@@ -1,0 +1,120 @@
+.animation-area {
+  .circles {
+    overflow: hidden;
+  }
+
+  .circles div {
+    position: absolute;
+    bottom: -50px;
+    left: 0.5em;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--secondary-color-pale-green);
+    animation: flying-circles 24s linear infinite;
+  }
+
+  .circles div:nth-child(1) {
+    background-color: var(--warm-beige-color);
+    left: 25%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 1.5s;
+  }
+
+  .circles div:nth-child(2) {
+    background-color: #ee7e52ad;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 15s;
+  }
+
+  .circles div:nth-child(3) {
+    background-color: var(--warm-beige-color);
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+  }
+  .circles div:nth-child(4) {
+    background-color: var(--secondary-color-pale-green);
+    left: 55%;
+    width: 45px;
+    height: 45px;
+    animation-delay: 4s;
+    animation-duration: 18s;
+  }
+  .circles div:nth-child(5) {
+    background-color: #ee7e52ad;
+    left: 85%;
+    width: 35px;
+    height: 35px;
+    animation-delay: 7s;
+  }
+  .circles div:nth-child(6) {
+    background-color: #ee7e52ad;
+    left: 15%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 5s;
+    animation-duration: 16s;
+  }
+
+  .circles div:nth-child(7) {
+    background-color: var(--warm-beige-color);
+    left: 40%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 5s;
+    animation-duration: 12s;
+  }
+
+  .circles div:nth-child(8) {
+    background-color: var(--secondary-color-pale-green);
+    left: 10%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 6s;
+    animation-duration: 14s;
+  }
+
+  .circles div:nth-child(9) {
+    background-color: #ee7e52ad;
+    left: 35%;
+    width: 45px;
+    height: 45px;
+    animation-delay: 9s;
+    animation-duration: 18s;
+  }
+
+  .circles div:nth-child(10) {
+    background-color: var(--secondary-color-pale-green);
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 10s;
+    animation-duration: 20s;
+  }
+}
+
+@keyframes flying-circles {
+  0% {
+    opacity: 1;
+    border-radius: 0;
+    transform: translateY(0) rotate(0deg);
+  }
+
+  20% {
+    opacity: 0.4;
+    border-radius: 50%;
+    transform: translateY(-200px) rotate(180deg);
+  }
+
+  100% {
+    opacity: 0;
+    border-radius: 50%;
+    transform: translateY(-1000px) rotate(720deg);
+  }
+}
