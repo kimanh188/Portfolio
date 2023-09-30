@@ -17,6 +17,8 @@ import { NotFoundContainer } from "./routes/NotFound/notFound.container.jsx";
 import { useState, useEffect } from "react";
 import { PrivacyContainer } from "./routes/PrivacyPolicy/privacyPolicy.container";
 
+import { DarkModeProvider } from "./contexts/theme.context";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -66,7 +68,13 @@ function App() {
     };
   }, []);
 
-  return <>{loading ? <Loader /> : <RouterProvider router={router} />}</>;
+  return (
+    <>
+      <DarkModeProvider>
+        {loading ? <Loader /> : <RouterProvider router={router} />}
+      </DarkModeProvider>
+    </>
+  );
 }
 
 export default App;

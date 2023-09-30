@@ -1,12 +1,9 @@
 import { DarkModeSwitch } from "react-toggle-dark-mode";
-import { useState } from "react";
+import { useContext } from "react";
+import { DarkModeContext } from "./../../../../contexts/theme.context";
 
 export const BtnDarkMode = () => {
-  const [isDarkMode, setDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!isDarkMode);
-  };
+  const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext);
 
   return (
     <DarkModeSwitch
