@@ -15,6 +15,7 @@ import { ContactContainer } from "./routes/Contact/contact.container.jsx";
 import { NotFoundContainer } from "./routes/NotFound/notFound.container.jsx";
 
 import { useState, useEffect } from "react";
+import { PrivacyContainer } from "./routes/PrivacyPolicy/privacyPolicy.container";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,6 +31,8 @@ const router = createBrowserRouter(
         <Route path={"/projects"} element={<ProjectsContainer />} />
 
         <Route path={"/contact"} element={<ContactContainer />} />
+
+        <Route path={"/privacy-policy"} element={<PrivacyContainer />} />
       </Route>
 
       <Route path={"*"} element={<NotFoundContainer />} />
@@ -43,9 +46,9 @@ function App() {
   useEffect(() => {
     const routeChangeHandler = () => {
       // Display loader only for home page ("/" or "/home") - true
-      /*  setLoading(
+      setLoading(
         window.location.pathname === "/" || window.location.pathname === "/home"
-      ); */
+      );
       setTimeout(() => {
         setLoading(false); // Hide loader after 4.5 seconds
       }, 4500);

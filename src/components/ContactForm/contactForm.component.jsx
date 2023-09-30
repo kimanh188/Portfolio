@@ -1,6 +1,8 @@
 import { BtnCTA } from "../Buttons/HeaderButtonGroup/btnCTA/btnCTA.component";
 import "./contactForm.style.css";
 
+import { Link } from "react-router-dom";
+
 export function ContactForm() {
   return (
     <form
@@ -40,6 +42,10 @@ export function ContactForm() {
       </div>
 
       <BtnCTA text={"Send"} />
+
+      <Link className="privacy-link" to={"/privacy-policy"}>
+        Privacy Policy
+      </Link>
     </form>
   );
 }

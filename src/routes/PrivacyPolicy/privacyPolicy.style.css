@@ -1,0 +1,31 @@
+.privacy-section {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+
+  .privacy-content {
+    .privacy-intro {
+      margin: 1em 0;
+    }
+
+    .privacy-policy-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 1em;
+    }
+  }
+
+  .back-to-contact-btn {
+    margin-top: 2em;
+    padding: 0.5em 1em;
+    max-width: 80px;
+    background-color: var(--dark-brown-color);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+}
