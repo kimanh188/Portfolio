@@ -1,7 +1,8 @@
 import "./../projects.style.css";
 
 import { HeaderButtonGroup } from "./../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component";
-import { ProjectCard } from "./../../../components/ProjectCard/projectCard.component";
+
+import { ProjectSlider } from "../../../components/ProjectSlider/projectSlider.component";
 
 export function ProjectsView() {
   return (
@@ -12,8 +13,7 @@ export function ProjectsView() {
         <p className="project-section-text">
           Here is a selection of stuff I&apos;ve built:
         </p>
-
-        <ProjectCard />
+        <ProjectSlider />
       </section>
     </>
   );
