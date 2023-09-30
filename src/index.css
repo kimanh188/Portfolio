@@ -17,6 +17,10 @@
   --warm-beige-color: #e5d2c7;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inria Sans", sans-serif;
 }

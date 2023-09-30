@@ -7,7 +7,7 @@ export function HeaderButtonGroup() {
   return (
     <div className="header-buttons">
       <BtnDarkMode />
-      <BtnCTA />
+      <BtnCTA text={"Contact me"} />
     </div>
   );
 }

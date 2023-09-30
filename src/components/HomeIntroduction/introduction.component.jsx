@@ -6,7 +6,7 @@ export function Introduction() {
       <div className="home-text">
         <p className="animation line1">
           <span className="red">function</span>{" "}
-          <span className="purple">Welcome</span>{" "}
+          <span className="purple">Welcome</span>
           <span className="orange">() {"{"}</span>
         </p>
 

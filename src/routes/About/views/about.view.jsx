@@ -9,8 +9,8 @@ export function AboutView() {
     <>
       <HeaderButtonGroup />
       <section className="about">
-        <h1 className="about-title">About me</h1>
-        <p className="about-text">
+        <h1 className="about-section-title">About me</h1>
+        <p className="about-section-text">
           Hi, I am a web developer based in Munich, and I recently completed the
           DCI Web Development Coding Course. Throughout the course, I&apos;ve
           honed my skills in crafting elegant websites and web applications.{" "}
@@ -29,6 +29,7 @@ export function AboutView() {
           link={"/"}
           text={"View my resume "}
           icon={<i className="btn-icon fa-solid fa-download"></i>}
+          title={"Click to open my resume as a PDF."}
         />
         <SkillsSlider />
       </section>

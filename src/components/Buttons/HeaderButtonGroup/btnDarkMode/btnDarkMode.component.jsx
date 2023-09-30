@@ -1,9 +1,32 @@
-import "./btnDarkMode.style.css";
+import { DarkModeSwitch } from "react-toggle-dark-mode";
+import { useState } from "react";
+
+export const BtnDarkMode = () => {
+  const [isDarkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!isDarkMode);
+  };
+
+  return (
+    <DarkModeSwitch
+      style={{ margin: "2em" }}
+      checked={!isDarkMode}
+      onChange={toggleDarkMode}
+      size={35}
+      moonColor={"#80513E"}
+      sunColor={"#EE7D52"}
+    />
+  );
+};
+
+/* import "./btnDarkMode.style.css";
 
 export function BtnDarkMode() {
   return (
     <>
       <svg
+        className="btn-dark-mode"
         width="35"
         height="35"
         viewBox="0 0 20 20"
@@ -23,4 +46,4 @@ export function BtnDarkMode() {
       </svg>
     </>
   );
-}
+} */

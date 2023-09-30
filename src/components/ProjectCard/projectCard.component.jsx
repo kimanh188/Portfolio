@@ -36,12 +36,14 @@ export function ProjectCard() {
             icon={
               <i className="btn-icon fa-solid fa-arrow-up-right-from-square"></i>
             }
+            title={"Visit the live version of the project."}
           />
 
           <BtnLinkOut
             link={"/"}
             text={"Source Code "}
             icon={<i className="btn-icon fa-brands fa-github"></i>}
+            title={"View the project's source code on GitHub."}
           />
         </div>
       </div>

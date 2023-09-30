@@ -1,10 +1,10 @@
 import "./btnCTA.style.css";
 
-export function BtnCTA() {
+export function BtnCTA({ text }) {
   return (
-    <div className="btn-conteiner">
+    <div className="btn-container">
       <a className="btn-content" href="/contact">
-        <span className="btn-title">Contact me</span>
+        <span className="btn-title">{text}</span>
         <span className="icon-arrow">
           <svg
             width="45px"

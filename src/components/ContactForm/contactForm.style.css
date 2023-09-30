@@ -1,0 +1,75 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  padding: 0 1em;
+  margin-top: 3em;
+
+  /*  border: 1px solid #75d89c; */
+
+  .row1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 2em;
+
+    /*  border: 1px solid red; */
+
+    #name,
+    #email {
+      width: 100%;
+    }
+  }
+
+  .row2 {
+    width: 100%;
+    /*   border: 1px solid red; */
+  }
+
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    position: relative;
+  }
+}
+
+.form-container .input-container input,
+.form-container .input-container textarea {
+  padding: 1em;
+  outline: 0;
+  border: 1px solid var(--dark-brown-color);
+}
+
+.form-container .input-container textarea {
+  width: 100%;
+  resize: none;
+  line-height: 1.5;
+}
+.form-container .input-container label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5em;
+  color: var(--dark-brown-color);
+  cursor: text;
+  transition: 0.3s;
+}
+
+.form-container .input-container input:focus ~ label,
+.form-container .input-container input:valid ~ label,
+.form-container .input-container textarea:focus ~ label,
+.form-container .input-container textarea:valid ~ label {
+  top: -2em;
+  font-size: 0.8rem;
+  color: var(--gray-color);
+}
+
+.form-container .input-container label i {
+  margin-right: 0.5em;
+}

@@ -1,0 +1,11 @@
+.socialMedia-btn {
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.socialMedia-btn:hover svg path {
+  fill: var(--accent-color-orange);
+}

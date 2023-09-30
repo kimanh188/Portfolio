@@ -1,7 +1,7 @@
 .about {
   padding: 2em;
 
-  .about-title {
+  .about-section-title {
     text-align: center;
     font-family: "Delius Swash Caps", cursive;
     font-size: 2.25rem;
@@ -9,7 +9,7 @@
     margin-bottom: 1em;
   }
 
-  .about-text {
+  .about-section-text {
     text-align: justify;
   }
 }
