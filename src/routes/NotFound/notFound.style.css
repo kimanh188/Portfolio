@@ -1,4 +1,12 @@
-.notfound-text {
-  text-align: center;
-  color: var(--dark-brown-color);
+.notFound-section {
+  margin: 5em auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+
+  .notfound-text {
+    text-align: center;
+    color: var(--dark-brown-color);
+  }
 }

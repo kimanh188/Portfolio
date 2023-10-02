@@ -1,23 +1,31 @@
 .privacy-section {
-  padding: 2em;
   display: flex;
   flex-direction: column;
+  background-color: var(--background-color);
+  height: 100vh;
 
   .privacy-content {
-    .privacy-intro {
-      margin: 1em 0;
+    padding: 2em;
+
+    .privacy-text {
+      text-align: justify;
+      color: var(--text-color);
+      .privacy-intro {
+        margin: 1em 0;
+      }
+
+      .privacy-policy-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1em;
+      }
     }
 
-    .privacy-policy-details {
+    .privacy-section-btn-container {
       display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      gap: 1em;
+      margin-top: 1.5em;
     }
-  }
-
-  .privacy-section-btn-container {
-    display: flex;
   }
 }
