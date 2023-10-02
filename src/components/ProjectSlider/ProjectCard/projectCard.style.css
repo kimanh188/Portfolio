@@ -1,5 +1,5 @@
 .project-container {
-  margin: 1em 0 1.5em 0;
+  margin: 1em 0.5em 1.5em 0;
   padding: 1em;
   background-color: var(--round-logo-color);
   border-radius: 1em;
@@ -8,6 +8,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  /*   border: 1px solid green; */
 
   .project-img-container img {
     height: 200px;

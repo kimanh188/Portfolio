@@ -1,7 +1,9 @@
 .project-slider {
-  display: flex;
+  /*    
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+
+  /* border: 1px solid red; */
 
   .react-multiple-carousel__arrow {
     min-width: 25px;
@@ -25,37 +27,7 @@
     font-size: 16px;
   }
 
-  .react-multi-carousel-dot-list {
-    /*     background-color: turquoise; */
-  }
-
   .react-multi-carousel-dot--active button {
     background-color: #80513e;
   }
-  /* .react-multiple-carousel__arrow {
-    background-color: rgba(0, 128, 0, 0.204);
-    min-width: 35px;
-    min-height: 35px;
-  }
-
-  .react-multiple-carousel__arrow--left {
-    left: 0;
-  }
-
-  .react-multiple-carousel__arrow--right {
-    right: 0;
-  }
-
-  .react-multiple-carousel__arrow:hover {
-    background-color: rgba(255, 166, 0, 0.172);
-  }
-
-  .react-multi-carousel-dot-list {
-    .react-multi-carousel-dot button {
-      background-color: lightgrey;
-    }
-    .react-multi-carousel-dot--active button {
-      background-color: rgb(231, 206, 160);
-    }
-  } */
 }

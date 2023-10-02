@@ -19,7 +19,7 @@ export function ProjectCard({
   return (
     <div className={`project-container ${isDarkMode ? "dark" : ""}`} id={id}>
       <div className="project-img-container">
-        <img src={imgSrc} alt="project-img" />
+        <img className="project-img" src={imgSrc} alt="project-img" />
       </div>
 
       <div className="project-overview">
