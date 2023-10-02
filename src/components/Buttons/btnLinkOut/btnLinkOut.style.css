@@ -1,13 +1,11 @@
 .linkOut-btn {
+  margin: 1.5em 0 0 0;
+  padding: 0.5em 1.5em;
   text-decoration: none;
   display: flex;
-
   justify-content: center;
   align-items: center;
   gap: 0.5em;
-  margin: 1.5em 0 0 0;
-  padding: 0.5em 1.5em;
-
   border: none;
   border-radius: 3.125rem;
   background-color: var(--secondary-color-pale-green);

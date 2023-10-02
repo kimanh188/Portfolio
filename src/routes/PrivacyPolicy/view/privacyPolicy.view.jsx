@@ -1,3 +1,4 @@
+import { BtnLinkOut } from "./../../../components/Buttons/btnLinkOut/btnLinkOut.component";
 import "../privacyPolicy.style.css";
 
 import { Link } from "react-router-dom";
@@ -37,9 +38,14 @@ export function PrivacyView() {
         </div>
       </div>
 
-      <Link className="back-to-contact-btn" to={"/contact"}>
-        Back
-      </Link>
+      <div className="privacy-section-btn-container">
+        <BtnLinkOut
+          link={"/contact"}
+          text={"Back"}
+          icon={""}
+          title={"Back to Contact"}
+        />
+      </div>
     </section>
   );
 }

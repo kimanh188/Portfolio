@@ -1,6 +1,6 @@
 import "./../projects.style.css";
 
-import { HeaderButtonGroup } from "./../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component";
+import { HeaderButtonGroup } from "../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component";
 
 import { ProjectSlider } from "../../../components/ProjectSlider/projectSlider.component";
 

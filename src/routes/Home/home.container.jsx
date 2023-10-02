@@ -1,4 +1,4 @@
-import { HomeView } from "./views/home.view.jsx";
+import { HomeView } from "./view/home.view.jsx";
 
 export function HomeContainer() {
   //LOGIK

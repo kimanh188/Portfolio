@@ -12,4 +12,8 @@
   .about-section-text {
     text-align: justify;
   }
+
+  .about-section-btn-container {
+    display: flex;
+  }
 }

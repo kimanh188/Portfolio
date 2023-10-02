@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { NotFoundView } from "./views/notFound.view.jsx";
+import { NotFoundView } from "./view/notFound.view.jsx";
 
 export function NotFoundContainer() {
   const navigate = useNavigate();

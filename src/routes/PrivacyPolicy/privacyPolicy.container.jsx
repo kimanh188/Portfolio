@@ -1,4 +1,4 @@
-import { PrivacyView } from "./views/privacyPolicy.view";
+import { PrivacyView } from "./view/privacyPolicy.view";
 
 export function PrivacyContainer() {
   return <PrivacyView />;

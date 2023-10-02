@@ -1,4 +1,4 @@
-import { ProjectsView } from "./views/projects.view.jsx";
+import { ProjectsView } from "./view/projects.view.jsx";
 
 export function ProjectsContainer() {
   return <ProjectsView />;

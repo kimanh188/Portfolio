@@ -1,4 +1,4 @@
-import { ContactView } from "./views/contact.view.jsx";
+import { ContactView } from "./view/contact.view.jsx";
 
 export function ContactContainer() {
   return <ContactView />;

@@ -1,8 +1,8 @@
 import "../about.style.css";
 
-import { HeaderButtonGroup } from "./../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component";
+import { HeaderButtonGroup } from "../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component";
 import { BtnLinkOut } from "../../../components/Buttons/btnLinkOut/btnLinkOut.component";
-import { SkillsSlider } from "./../../../components/SkillsSlider/skillsSlider.component";
+import { SkillsSlider } from "../../../components/SkillsSlider/skillsSlider.component";
 
 export function AboutView() {
   return (
@@ -25,12 +25,15 @@ export function AboutView() {
           also gives me great enjoyment. I&apos;m excited to connect with
           companies and colleagues that inspire me!
         </p>
-        <BtnLinkOut
-          link={"/"}
-          text={"View my resume "}
-          icon={<i className="btn-icon fa-solid fa-download"></i>}
-          title={"Click to open my resume as a PDF."}
-        />
+        <div className="about-section-btn-container">
+          <BtnLinkOut
+            link={"/"}
+            text={"View my resume "}
+            icon={<i className="btn-icon fa-solid fa-download"></i>}
+            title={"Click to open my resume as a PDF."}
+          />
+        </div>
+
         <SkillsSlider />
       </section>
     </>
