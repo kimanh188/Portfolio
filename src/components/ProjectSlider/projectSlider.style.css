@@ -1,4 +1,10 @@
 .project-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid red;
+
   .react-multiple-carousel__arrow {
     min-width: 25px;
     min-height: 25px;

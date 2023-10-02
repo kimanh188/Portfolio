@@ -5,7 +5,7 @@
     border-radius: 50%;
     width: 7.75rem;
     height: 7.75rem;
-    background-color: var(--warm-beige-color);
+    background-color: var(--round-logo-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,6 @@
 
 .home-logo.dark {
   .round-shape {
-    background-color: purple;
+    box-shadow: 4px 4px 5px rgba(96, 93, 103, 0.6);
   }
 }

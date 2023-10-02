@@ -1,7 +1,11 @@
 import "./skillsSlider.style.css";
 import { useEffect } from "react";
 
+import { useContext } from "react";
+import { DarkModeContext } from "./../../contexts/theme.context";
+
 export function SkillsSlider() {
+  const { isDarkMode } = useContext(DarkModeContext);
   useEffect(() => {
     const carousel = document.querySelector(".carousel");
     const arrowButtons = document.querySelectorAll(".fa-solid");
@@ -64,7 +68,7 @@ export function SkillsSlider() {
 
   return (
     <div className="tech-skills">
-      <div className="carousel-container">
+      <div className={`carousel-container  ${isDarkMode ? "dark" : ""}`}>
         <i id="left" className="fa-solid fa-angle-left"></i>
 
         <ul className="carousel">

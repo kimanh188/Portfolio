@@ -1,13 +1,20 @@
 import { NavLink, Outlet } from "react-router-dom";
 
+import { useContext } from "react";
+import { DarkModeContext } from "./../../contexts/theme.context";
+
 import "./navbar.style.css";
 
 export function NavBarWrapper() {
+  const { isDarkMode } = useContext(DarkModeContext);
   return (
     <>
       <Outlet />
       <nav className="navBar">
-        <NavLink className="navbar-icon-item" to={"/"}>
+        <NavLink
+          className={`navbar-icon-item ${isDarkMode ? "dark" : ""}`}
+          to={"/"}
+        >
           {" "}
           <svg
             width="35"
@@ -28,7 +35,10 @@ export function NavBarWrapper() {
           </svg>{" "}
         </NavLink>
 
-        <NavLink className="navbar-icon-item" to={"/about"}>
+        <NavLink
+          className={`navbar-icon-item ${isDarkMode ? "dark" : ""}`}
+          to={"/about"}
+        >
           {" "}
           <svg
             width="35"
@@ -44,7 +54,10 @@ export function NavBarWrapper() {
           </svg>{" "}
         </NavLink>
 
-        <NavLink className="navbar-icon-item" to={"/projects"}>
+        <NavLink
+          className={`navbar-icon-item ${isDarkMode ? "dark" : ""}`}
+          to={"/projects"}
+        >
           {" "}
           <svg
             width="35"

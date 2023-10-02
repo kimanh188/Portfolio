@@ -55,13 +55,10 @@ function App() {
         setLoading(false); // Hide loader after 4.5 seconds
       }, 4500);
     };
-
     // Listen for route changes
     window.addEventListener("popstate", routeChangeHandler);
-
     // Initial loader display
     routeChangeHandler();
-
     // Cleanup the event listener when component unmounts
     return () => {
       window.removeEventListener("popstate", routeChangeHandler);

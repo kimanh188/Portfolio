@@ -4,16 +4,23 @@ import { HeaderButtonGroup } from "../../../components/Buttons/HeaderButtonGroup
 
 import { ProjectSlider } from "../../../components/ProjectSlider/projectSlider.component";
 
+import { useContext } from "react";
+import { DarkModeContext } from "./../../../contexts/theme.context";
+
 export function ProjectsView() {
+  const { isDarkMode } = useContext(DarkModeContext);
+
   return (
     <>
-      <HeaderButtonGroup />
-      <section className="projects">
-        <h1 className="project-section-title">Projects</h1>
-        <p className="project-section-text">
-          Here is a selection of stuff I&apos;ve built:
-        </p>
-        <ProjectSlider />
+      <section className={`projects-section ${isDarkMode ? "dark" : ""}`}>
+        <HeaderButtonGroup />
+        <div className="projects-section-content">
+          <h1 className="project-section-title">Projects</h1>
+          <p className="project-section-text">
+            Here is a selection of stuff I&apos;ve built:
+          </p>
+          <ProjectSlider />
+        </div>
       </section>
     </>
   );

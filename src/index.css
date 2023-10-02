@@ -8,19 +8,41 @@
 
 :root {
   --background-color: white;
+  --background-color-intro-code: #fffcf7;
+  --background-color-navbar: #edf2e2;
+
   --accent-color-orange: #ee7d52;
+
+  --round-logo-color: #e5d2c7;
+
   --secondary-color-pale-green: #edf2e2;
-  --secondary-color-green: #89a44c;
-  --dark-brown-color: #80513e;
+  /* --secondary-color-green: #89a44c; */
+
+  --section-title-color: #80513e;
+  --text-color: black;
+  --btn-text-color: #80513e;
+
   --white-color: #fff;
   --gray-color: #8f8f8f;
-  --warm-beige-color: #e5d2c7;
+}
+
+.dark {
+  --background-color: #1c131c;
+  --background-color-intro-code: #110f11;
+  --background-color-navbar: #263a29;
+
+  --round-logo-color: #352f44;
+
+  --section-title-color: #89a44c;
+  --text-color: #f2e3db;
 }
 
 html {
   scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
 }
 
 body {
   font-family: "Inria Sans", sans-serif;
+  background-color: var(--background-color);
 }

@@ -2,6 +2,9 @@ import "./projectCard.style.css";
 
 import { BtnLinkOut } from "../../Buttons/btnLinkOut/btnLinkOut.component";
 
+import { useContext } from "react";
+import { DarkModeContext } from "./../../../contexts/theme.context";
+
 export function ProjectCard({
   id,
   imgSrc,
@@ -11,8 +14,10 @@ export function ProjectCard({
   projectLiveLink,
   projectSourceLink,
 }) {
+  const { isDarkMode } = useContext(DarkModeContext);
+
   return (
-    <div className="project-container" id={id}>
+    <div className={`project-container ${isDarkMode ? "dark" : ""}`} id={id}>
       <div className="project-img-container">
         <img src={imgSrc} alt="project-img" />
       </div>

@@ -8,7 +8,7 @@
   border: 1px solid var(--warm-beige-color);
   border-radius: 20px;
   box-shadow: 3px 5px 15px 1px #80513e52;
-  background-color: white;
+  background-color: var(--background-color-intro-code);
 
   z-index: 10;
 
@@ -58,20 +58,54 @@
     margin-left: 2.4em;
   }
 
-  .red {
-    color: red;
+  .func-color {
+    color: #ff4949;
   }
 
-  .purple {
-    color: purple;
+  .funcName-color {
+    color: #793fdf;
   }
 
-  .orange {
-    color: orange;
+  .round-bracket-color {
+    color: #ffbb5c;
   }
 
-  .green {
-    color: green;
+  .bracket-color {
+    color: #ea906c;
+  }
+
+  .element {
+    color: #5d9c59;
+  }
+
+  .element-text {
+    color: black;
+  }
+}
+
+.dark {
+  .func-color {
+    color: #fdfdbd;
+  }
+
+  .funcName-color {
+    color: #b1afff;
+  }
+
+  .round-bracket-color {
+    color: #b8e8fc;
+  }
+
+  .bracket-color {
+    color: #ecee81;
+  }
+
+  .element {
+    color: #96c291;
+  }
+
+  .element-text {
+    color: #e5d2c7;
   }
 }
 

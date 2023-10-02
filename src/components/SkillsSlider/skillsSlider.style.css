@@ -70,3 +70,13 @@
     }
   }
 }
+
+.dark {
+  .carousel-container {
+    .carousel {
+      .skill-card {
+        background-color: var(--round-logo-color);
+      }
+    }
+  }
+}
