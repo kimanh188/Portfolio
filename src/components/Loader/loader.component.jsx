@@ -1,8 +1,13 @@
 import "./loader.style.css";
 
+import { useContext } from "react";
+import { DarkModeContext } from "./../../contexts/theme.context";
+
 export function Loader() {
+  const { isDarkMode } = useContext(DarkModeContext);
+
   return (
-    <div>
+    <div className={`loader-container ${isDarkMode ? "dark" : ""}`}>
       <svg
         id="loader"
         width="230"

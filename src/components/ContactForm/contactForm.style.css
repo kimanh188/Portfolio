@@ -71,7 +71,7 @@
   top: 0;
   left: 0;
   padding: 0.5em;
-  color: var(--section-title-color);
+  color: var(--btn-text-color);
   cursor: text;
   transition: 0.3s;
 }
@@ -87,4 +87,10 @@
 
 .form-container .input-container label i {
   margin-right: 0.5em;
+}
+
+.dark {
+  .form-container .input-container label {
+    color: #80513eb3;
+  }
 }

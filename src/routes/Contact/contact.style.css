@@ -26,7 +26,7 @@
     }
 
     .contact-details {
-      margin: 2em 0;
+      margin: 1em 0;
       .contact-item {
         color: var(--text-color);
         display: flex;
