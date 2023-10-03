@@ -1,11 +1,12 @@
 import "./skillsSlider.style.css";
-import { useEffect } from "react";
 
-import { useContext } from "react";
+import { useEffect, useContext } from "react";
+
 import { DarkModeContext } from "./../../contexts/theme.context";
 
 export function SkillsSlider() {
   const { isDarkMode } = useContext(DarkModeContext);
+
   useEffect(() => {
     const carousel = document.querySelector(".carousel");
     const arrowButtons = document.querySelectorAll(".fa-solid");

@@ -1,5 +1,6 @@
 .tech-skills {
   margin: 3em 0;
+  width: 100%;
 
   .carousel-container {
     max-width: 600px;
@@ -7,6 +8,7 @@
     position: relative;
 
     .fa-solid {
+      display: block;
       height: 20px;
       width: 20px;
       line-height: 20px;
@@ -17,7 +19,7 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      font-size: 1.25em;
+
       box-shadow: 0 3px 6px rgba(153, 225, 148, 0.485);
       cursor: pointer;
 
@@ -48,16 +50,24 @@
         gap: 0.5em;
         background-color: var(--secondary-color-pale-green);
         border-radius: 0.5em;
-        cursor: pointer;
 
         .skill-card__icon {
           width: 60px;
           height: 60px;
+          transition: all 0.3s ease;
         }
 
         .skill-card__text {
           color: var(--gray-color);
           font-size: 0.825em;
+          user-select: none;
+        }
+
+        &:hover {
+          .skill-card__text {
+            color: var(--accent-color-orange);
+            font-weight: bold;
+          }
         }
       }
 
@@ -73,9 +83,35 @@
 
 .dark {
   .carousel-container {
+    .fa-solid {
+      background-color: var(--gray-color);
+    }
     .carousel {
       .skill-card {
         background-color: var(--round-logo-color);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tech-skills {
+    .carousel-container {
+      max-width: 1200px;
+
+      .fa-solid {
+        &:first-child {
+          left: -25px;
+        }
+
+        &:last-child {
+          right: -25px;
+        }
+      }
+
+      .carousel {
+        padding: 2em 0;
+        grid-auto-columns: calc((100% / 6) - 0.8em);
       }
     }
   }

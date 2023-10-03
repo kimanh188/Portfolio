@@ -13,7 +13,7 @@ export function NavBarWrapper() {
   return (
     <>
       <Outlet />
-      <nav className="navBar">
+      <nav className={`navBar ${isDarkMode ? "dark" : ""}`}>
         <Logo />
 
         <div className="navBar-buttons">

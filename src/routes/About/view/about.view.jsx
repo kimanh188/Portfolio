@@ -4,11 +4,7 @@ import { HeaderButtonGroup } from "../../../components/Buttons/HeaderButtonGroup
 import { BtnLinkOut } from "../../../components/Buttons/btnLinkOut/btnLinkOut.component";
 import { SkillsSlider } from "../../../components/SkillsSlider/skillsSlider.component";
 
-import { useContext } from "react";
-import { DarkModeContext } from "./../../../contexts/theme.context";
-
-export function AboutView() {
-  const { isDarkMode } = useContext(DarkModeContext);
+export function AboutView({ isDarkMode }) {
   return (
     <>
       <section className={`about-section ${isDarkMode ? "dark" : ""}`}>

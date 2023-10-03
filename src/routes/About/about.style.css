@@ -9,7 +9,7 @@
     .about-section-title {
       text-align: center;
       font-family: "Delius Swash Caps", cursive;
-      font-size: 2.25rem;
+      font-size: 2.25em;
       color: var(--section-title-color);
       margin-bottom: 1em;
     }
@@ -22,6 +22,18 @@
     .about-section-btn-container {
       margin-top: 1.5em;
       display: flex;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-section {
+    margin-left: 16vw;
+    width: 84vw;
+    height: 100vh;
+
+    .about-section-content {
+      padding: 2em 3em;
     }
   }
 }
