@@ -28,7 +28,7 @@ export function AboutView({ isDarkMode }) {
           </p>
           <div className="about-section-btn-container">
             <BtnLinkOut
-              link={"/"}
+              link={"#"}
               text={"View my resume "}
               icon={<i className="btn-icon fa-solid fa-download"></i>}
               title={"Click to open my resume as a PDF."}

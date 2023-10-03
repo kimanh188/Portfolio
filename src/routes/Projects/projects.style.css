@@ -34,10 +34,24 @@
 
     .projects-section-content {
       padding: 2em 3em;
+      font-size: 1.1em;
+
+      .project-section-text {
+        text-align: left;
+      }
 
       .project-cards-container-desktop {
         display: block;
       }
+    }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .projects-section {
+    .projects-section-content {
+      font-size: 1.25em;
+      padding: 2em 6em;
     }
   }
 }

@@ -29,6 +29,20 @@
 @media only screen and (min-width: 768px) {
   .home-logo {
     .round-shape {
+      width: 7rem;
+      height: 7rem;
+
+      .logo-midjourney {
+        width: 128px;
+        height: 120px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  .home-logo {
+    .round-shape {
       width: 10rem;
       height: 10rem;
 

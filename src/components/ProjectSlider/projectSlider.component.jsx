@@ -24,11 +24,11 @@ export function ProjectSlider() {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 500 },
+      breakpoint: { max: 1024, min: 701 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 510, min: 0 },
+      breakpoint: { max: 701, min: 0 },
       items: 1,
     },
   };

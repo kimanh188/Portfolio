@@ -116,3 +116,26 @@
     }
   }
 }
+
+@media only screen and (min-width: 1500px) {
+  .tech-skills {
+    .carousel-container {
+      max-width: 1400px;
+
+      .fa-solid {
+        &:first-child {
+          left: -30px;
+        }
+
+        &:last-child {
+          right: -30px;
+        }
+      }
+
+      .carousel {
+        padding: 2em 0;
+        grid-auto-columns: calc((100% / 8) - 0.8em);
+      }
+    }
+  }
+}

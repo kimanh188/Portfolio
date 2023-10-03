@@ -65,6 +65,21 @@
         .contact-detail-container {
           margin-top: 2em;
           line-height: 2;
+          text-align: left;
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .contact-section {
+    .contact-section-content {
+      .contact-wrapper {
+        gap: 2.5em;
+        .contact-detail-container {
+          font-size: 1.25em;
         }
       }
     }

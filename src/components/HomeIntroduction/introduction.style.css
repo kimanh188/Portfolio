@@ -12,6 +12,14 @@
 
   z-index: 10;
 
+  &:hover {
+    .element-text {
+      .emphasis {
+        color: var(--accent-color-orange);
+      }
+    }
+  }
+
   .animation {
     overflow: hidden;
     white-space: nowrap;
@@ -45,6 +53,15 @@
   .line9 {
     animation: typing 3s steps(50) 10.5s forwards;
   }
+  .line10 {
+    animation: typing 3s steps(50) 11.5s forwards;
+  }
+  .line11 {
+    animation: typing 3s steps(50) 12s forwards;
+  }
+  .line12 {
+    animation: typing 3s steps(50) 12.5s forwards;
+  }
 
   .m-left-1 {
     margin-left: 0.8em;
@@ -56,6 +73,10 @@
 
   .m-left-3 {
     margin-left: 2.4em;
+  }
+
+  .m-left-4 {
+    margin-left: 3.2em;
   }
 
   .func-color {
@@ -124,5 +145,6 @@
   .home-text {
     width: 50vw;
     font-size: 1.25em;
+    line-height: 1.5;
   }
 }

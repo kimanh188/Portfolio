@@ -64,11 +64,13 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
+      padding-left: 1em;
 
       .navbar-icon-item {
         /* border: 1px solid black; */
         width: 100%;
-        padding: 1em;
+        padding: 0.5em;
+        /* padding: 1em; */
         justify-content: flex-start;
         align-items: center;
         gap: 0.5em;
@@ -76,12 +78,15 @@
         color: var(--text-color);
 
         .navbar-icon {
-          width: 2.75em;
-          height: 2.75em;
+          width: 2em;
+          height: 2em;
+          /* width: 2.75em;
+          height: 2.75em; */
         }
 
         .nav-button-text {
-          font-size: 1.5rem;
+          font-size: 0.8em;
+          /* font-size: 1.25rem; */
           display: inline-block;
           background-color: transparent;
           padding: 0.2em 0.5em;
@@ -95,6 +100,32 @@
           background-color: var(--white-color);
           padding: 0.2em 0.5em;
           border-radius: 1em;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  .navBar {
+    .navBar-buttons {
+      gap: 1em;
+      .navbar-icon-item {
+        .nav-button-text {
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .navBar {
+    .navBar-buttons {
+      .navbar-icon-item {
+        padding-left: 2em;
+        .nav-button-text {
+          font-size: 1.5rem;
         }
       }
     }
