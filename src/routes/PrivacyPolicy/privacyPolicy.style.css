@@ -29,3 +29,15 @@
     }
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .privacy-section {
+    margin-left: 16vw;
+    width: 84vw;
+    height: 100vh;
+
+    .privacy-content {
+      padding: 2em 3em;
+    }
+  }
+}

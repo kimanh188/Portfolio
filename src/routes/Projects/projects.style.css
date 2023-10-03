@@ -19,6 +19,10 @@
       text-align: justify;
       color: var(--text-color);
     }
+
+    .project-cards-container-desktop {
+      display: none;
+    }
   }
 }
 
@@ -30,6 +34,10 @@
 
     .projects-section-content {
       padding: 2em 3em;
+
+      .project-cards-container-desktop {
+        display: block;
+      }
     }
   }
 }
