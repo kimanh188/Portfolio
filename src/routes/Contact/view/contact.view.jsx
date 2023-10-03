@@ -2,12 +2,14 @@ import { ContactForm } from "../../../components/ContactForm/contactForm.compone
 import { BtnSocialMedia } from "../../../components/Buttons/btnSocialMedia/btnSocialMedia.component";
 import { BtnDarkMode } from "../../../components/Buttons/HeaderButtonGroup/btnDarkMode/btnDarkMode.component";
 import "./../contact.style.css";
+import { FooterWrapper } from "../../../components/Footer/footer.component";
 
 export function ContactView({ isDarkMode }) {
   return (
     <>
       <section className={`contact-section ${isDarkMode ? "dark" : ""}`}>
         <BtnDarkMode />
+
         <div className="contact-section-content">
           <h1 className="contact-section-title">Get in touch</h1>
 
@@ -94,6 +96,8 @@ export function ContactView({ isDarkMode }) {
             <ContactForm />
           </div>
         </div>
+
+        <FooterWrapper />
       </section>
     </>
   );

@@ -42,10 +42,6 @@ export function ContactForm() {
       </div>
 
       <BtnCTA text={"Send"} />
-
-      <Link className="privacy-link" to={"/privacy-policy"}>
-        Privacy Policy
-      </Link>
     </form>
   );
 }

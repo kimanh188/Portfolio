@@ -38,19 +38,6 @@
 
     position: relative;
   }
-
-  .privacy-link {
-    text-decoration: none;
-    color: var(--gray-color);
-
-    &:hover {
-      text-decoration: underline;
-    }
-
-    &:visited {
-      color: var(--gray-color);
-    }
-  }
 }
 
 .form-container .input-container input,
