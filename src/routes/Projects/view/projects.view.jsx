@@ -1,15 +1,9 @@
 import "./../projects.style.css";
 
 import { HeaderButtonGroup } from "../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component";
-
 import { ProjectSlider } from "../../../components/ProjectSlider/projectSlider.component";
 
-import { useContext } from "react";
-import { DarkModeContext } from "./../../../contexts/theme.context";
-
-export function ProjectsView() {
-  const { isDarkMode } = useContext(DarkModeContext);
-
+export function ProjectsView({ isDarkMode }) {
   return (
     <>
       <section className={`projects-section ${isDarkMode ? "dark" : ""}`}>
