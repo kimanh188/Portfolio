@@ -1,4 +1,4 @@
-.home-section {
+.home-section-mobile {
   width: 100vw;
   height: 100vh;
   background-color: var(--background-color);
@@ -14,5 +14,32 @@
   }
 }
 
+.home-wrapper-desktop {
+  display: none;
+}
+
 /* .home-section.dark {
 } */
+@media only screen and (min-width: 768px) {
+  .home-section-mobile {
+    display: none;
+  }
+
+  .home-wrapper-desktop {
+    display: block;
+    background-color: var(--background-color);
+
+    .home-section-desktop {
+      margin-left: 16vw;
+      width: 84vw;
+      height: 100vh;
+
+      .home-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7em 0;
+      }
+    }
+  }
+}

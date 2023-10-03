@@ -9,24 +9,95 @@
   /*   padding: 1em; */
   z-index: 100;
 
-  .navbar-icon-item {
-    background-color: var(--background-color-navbar);
-
-    width: calc(100% / 3);
-    flex: 1;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-
-    /*  &:focus,
-    &:hover {
-      background-color: var(--secondary-color-pale-green);
-    } */
+  .home-logo {
+    display: none;
   }
 
-  .active {
-    .navbar-icon {
-      fill: var(--accent-color-orange);
+  .navBar-buttons {
+    display: flex;
+    width: 100%;
+
+    .navbar-icon-item {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      background-color: var(--background-color-navbar);
+      width: calc(100% / 3);
+      padding: 1em;
+
+      /*  &:focus,
+      &:hover {
+        background-color: var(--secondary-color-pale-green);
+      } */
+
+      .nav-button-text {
+        display: none;
+      }
+    }
+
+    .active {
+      .navbar-icon {
+        fill: var(--accent-color-orange);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 16vw;
+    background-color: var(--background-color-navbar);
+
+    .home-logo {
+      display: block;
+      margin: 2em 1em;
+    }
+
+    .navBar-buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+
+      .navbar-icon-item {
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 1em;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.5em;
+        text-decoration: none;
+        color: var(--text-color);
+
+        .navbar-icon {
+          width: 2.75em;
+          height: 2.75em;
+        }
+
+        .nav-button-text {
+          font-size: 1.5rem;
+          display: inline-block;
+          background-color: transparent;
+          padding: 0.2em 0.5em;
+          border-radius: 1em;
+        }
+      }
+
+      .active {
+        .nav-button-text {
+          color: var(--accent-color-orange);
+          background-color: var(--white-color);
+          padding: 0.2em 0.5em;
+          border-radius: 1em;
+        }
+      }
     }
   }
 }

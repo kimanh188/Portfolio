@@ -120,14 +120,6 @@ export function Introduction() {
           </span>
         </p>
       </div>
-
-      <div className="home-intro">
-        <img
-          className="home-code-snippet"
-          src="code-snippet.png"
-          alt="code-box"
-        />
-      </div>
     </>
   );
 }

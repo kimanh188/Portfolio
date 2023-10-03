@@ -6,22 +6,33 @@ import { Logo } from "../../../components/Logo/logo.component";
 import { Introduction } from "../../../components/HomeIntroduction/introduction.component";
 import { FlyingCircles } from "../../../components/HomeAnimation/flyingCircles.component";
 
-import { useContext } from "react";
-import { DarkModeContext } from "./../../../contexts/theme.context";
-
-export function HomeView() {
-  const { isDarkMode } = useContext(DarkModeContext);
-
+export function HomeView({ isDarkMode }) {
   return (
-    <section className={`home-section ${isDarkMode ? "dark" : ""}`}>
-      <HeaderButtonGroup />
+    <>
+      <section className={`home-section-mobile ${isDarkMode ? "dark" : ""}`}>
+        <HeaderButtonGroup />
 
-      <div className="home-content">
-        <Logo />
-        <Introduction />
-      </div>
+        <div className="home-content">
+          <Logo />
+          <Introduction />
+        </div>
+
+        <NavBarWrapper />
+      </section>
+
+      <section className={`home-wrapper-desktop ${isDarkMode ? "dark" : ""}`}>
+        <NavBarWrapper />
+
+        <div className="home-section-desktop">
+          <HeaderButtonGroup />
+
+          <div className="home-content">
+            <Introduction />
+          </div>
+        </div>
+      </section>
+
       <FlyingCircles />
-      <NavBarWrapper />
-    </section>
+    </>
   );
 }
