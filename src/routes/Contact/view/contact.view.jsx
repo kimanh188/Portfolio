@@ -56,7 +56,7 @@ export function ContactView({ isDarkMode }) {
 
               <div className="contact-social-links">
                 <BtnSocialMedia
-                  link={"/"}
+                  link={"#"}
                   icon={
                     <svg
                       width="35"
@@ -74,7 +74,7 @@ export function ContactView({ isDarkMode }) {
                 />
 
                 <BtnSocialMedia
-                  link={"/"}
+                  link={"#"}
                   icon={
                     <svg
                       width="42"

@@ -9,6 +9,7 @@
   /*   padding: 1em; */
   z-index: 100;
   background-color: var(--background-color-navbar);
+
   .home-logo {
     display: none;
   }

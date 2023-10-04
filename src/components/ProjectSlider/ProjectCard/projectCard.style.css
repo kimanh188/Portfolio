@@ -1,5 +1,5 @@
 .project-container {
-  margin: 1.5em 0.5em 1.2em 0.5em /* 1.5em 0 */;
+  margin: 1.5em 0.5em 1.5em 0.5em /* 1.5em 0 */;
   padding: 1em;
   background-color: var(--round-logo-color);
   border-radius: 1em;
@@ -8,6 +8,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  box-shadow: 5px 5px 10px rgba(240, 229, 216, 0.5);
 
   .project-img-container {
     height: 40%;
@@ -52,6 +54,12 @@
   }
 }
 
+.dark {
+  .project-container {
+    box-shadow: 4px 4px 5px rgba(96, 93, 103, 0.6);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .project-container {
     flex-direction: row;
@@ -59,17 +67,13 @@
     gap: 1em;
     width: 100%;
 
-    border: 1px solid blue;
-
     .project-img-container {
       flex: 1.5;
       height: 100%;
-      border: 1px solid green;
     }
 
     .project-overview {
       flex: 2;
-      border: 1px solid red;
 
       .project-buttons {
         display: flex;

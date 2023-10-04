@@ -4,7 +4,7 @@
 
   overflow: hidden;
   display: inline-block;
-  text-wrap: wrap;
+
   border: 1px solid var(--warm-beige-color);
   border-radius: 20px;
   box-shadow: 3px 5px 15px 1px #80513e52;
@@ -39,28 +39,33 @@
     animation: typing 3s steps(50) 2.3s forwards;
   }
   .line5 {
-    animation: typing 3s steps(50) 4.3s forwards;
+    animation: typing 3s steps(50) 4s forwards;
   }
   .line6 {
-    animation: typing 3s steps(50) 6.5s forwards;
+    animation: typing 3s steps(50) 6s forwards;
   }
   .line7 {
-    animation: typing 3s steps(50) 9.5s forwards;
+    animation: typing 3s steps(50) 6.5s forwards;
   }
   .line8 {
-    animation: typing 3s steps(50) 10s forwards;
+    animation: typing 3s steps(50) 8s forwards;
   }
+
   .line9 {
-    animation: typing 3s steps(50) 10.5s forwards;
+    animation: typing 3s steps(50) 8.5s forwards;
   }
+
   .line10 {
-    animation: typing 3s steps(50) 11.5s forwards;
+    animation: typing 3s steps(50) 9.5s forwards;
   }
   .line11 {
-    animation: typing 3s steps(50) 12s forwards;
+    animation: typing 3s steps(50) 10s forwards;
   }
   .line12 {
-    animation: typing 3s steps(50) 12.5s forwards;
+    animation: typing 3s steps(50) 10.5s forwards;
+  }
+  .line13 {
+    animation: typing 3s steps(50) 11s forwards;
   }
 
   .m-left-1 {

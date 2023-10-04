@@ -49,7 +49,7 @@ export function Introduction() {
             {">"}
           </span>
           <span className={`element-text ${isDarkMode ? "dark" : ""}`}>
-            Hello there,
+            Hello there!
           </span>
           <span className={`bracket-color ${isDarkMode ? "dark" : ""}`}>
             {"</"}
@@ -92,7 +92,7 @@ export function Introduction() {
 
         <p className="m-left-4 animation line7">
           <span className={`element-text ${isDarkMode ? "dark" : ""}`}>
-            I find joy in coding and creating interactive online experiences.
+            I enjoy the coding journey.
           </span>
         </p>
 
@@ -105,12 +105,15 @@ export function Introduction() {
           <span className={`bracket-color ${isDarkMode ? "dark" : ""}`}>
             {"/>"}
           </span>
+        </p>
+
+        <p className="m-left-4 animation line9">
           <span className={`element-text ${isDarkMode ? "dark" : ""}`}>
             Welcome to my digital space!
           </span>
         </p>
 
-        <p className="m-left-3 animation line9">
+        <p className="m-left-3 animation line10">
           {" "}
           <span className={`bracket-color ${isDarkMode ? "dark" : ""}`}>
             {"</"}
@@ -121,21 +124,21 @@ export function Introduction() {
           </span>
         </p>
 
-        <p className="m-left-2 animation line10">
+        <p className="m-left-2 animation line11">
           {" "}
           <span className={`bracket-color ${isDarkMode ? "dark" : ""}`}>
             {"</>"}
           </span>
         </p>
 
-        <p className="m-left-1 animation line11">
+        <p className="m-left-1 animation line12">
           <span className={`round-bracket-color ${isDarkMode ? "dark" : ""}`}>
             {" "}
             {");"}
           </span>
         </p>
 
-        <p className="animation line12">
+        <p className="animation line13">
           <span className={`bracket-color ${isDarkMode ? "dark" : ""}`}>
             {"}"}
           </span>

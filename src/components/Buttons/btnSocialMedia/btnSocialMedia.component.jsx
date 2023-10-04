@@ -12,7 +12,7 @@ export function BtnSocialMedia({ link, icon, socialMedia }) {
 
   return (
     <Link
-      className={`socialMedia-btn ${isDarkMode ? "dark" : ""}`}
+      className={`socialMedia-btn ${socialMedia} ${isDarkMode ? "dark" : ""}`}
       to={link}
       title={titleText}
     >

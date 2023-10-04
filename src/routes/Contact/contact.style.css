@@ -28,6 +28,7 @@
 
       .contact-details {
         margin: 1em 0;
+
         .contact-item {
           color: var(--text-color);
           display: flex;
@@ -66,7 +67,30 @@
           margin-top: 2em;
           line-height: 2;
           text-align: left;
-          font-size: 1.1em;
+          font-size: 1.2em;
+          flex: 1;
+
+          .contact-details {
+            margin-top: 2em;
+          }
+
+          .contact-social-links {
+            margin-top: 1.75em;
+
+            .LinkedIn svg {
+              width: 45px;
+              height: 45px;
+            }
+
+            .Github svg {
+              width: 55px;
+              height: 55px;
+            }
+          }
+        }
+
+        .form-container {
+          flex: 1;
         }
       }
     }

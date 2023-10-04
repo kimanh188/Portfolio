@@ -30,7 +30,7 @@
   .about-section {
     margin-left: 16vw;
     width: 84vw;
-    height: 100vh;
+    height: auto;
 
     .about-section-content {
       padding: 2em 3em;

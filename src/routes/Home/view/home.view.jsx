@@ -31,7 +31,6 @@ export function HomeView({ isDarkMode }) {
           </div>
         </div>
       </section>
-
       <FlyingCircles />
     </>
   );
