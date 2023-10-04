@@ -48,24 +48,24 @@
     animation: typing 3s steps(50) 6.5s forwards;
   }
   .line8 {
-    animation: typing 3s steps(50) 8s forwards;
+    animation: typing 3s steps(50) 8.8s forwards;
   }
 
   .line9 {
-    animation: typing 3s steps(50) 8.5s forwards;
+    animation: typing 3s steps(50) 9s forwards;
   }
 
   .line10 {
-    animation: typing 3s steps(50) 9.5s forwards;
-  }
-  .line11 {
-    animation: typing 3s steps(50) 10s forwards;
-  }
-  .line12 {
     animation: typing 3s steps(50) 10.5s forwards;
   }
-  .line13 {
+  .line11 {
     animation: typing 3s steps(50) 11s forwards;
+  }
+  .line12 {
+    animation: typing 3s steps(50) 11.5s forwards;
+  }
+  .line13 {
+    animation: typing 3s steps(50) 12s forwards;
   }
 
   .m-left-1 {
@@ -106,6 +106,10 @@
 
   .element-text {
     color: black;
+  }
+
+  .desktop {
+    display: none;
   }
 }
 
@@ -151,5 +155,13 @@
     width: 50vw;
     font-size: 1.25em;
     line-height: 1.5;
+
+    .mobile {
+      display: none;
+    }
+
+    .desktop {
+      display: block;
+    }
   }
 }

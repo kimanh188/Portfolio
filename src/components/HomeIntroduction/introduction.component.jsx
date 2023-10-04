@@ -91,8 +91,11 @@ export function Introduction() {
         </p>
 
         <p className="m-left-4 animation line7">
-          <span className={`element-text ${isDarkMode ? "dark" : ""}`}>
+          <span className={`element-text mobile ${isDarkMode ? "dark" : ""}`}>
             I enjoy the coding journey.
+          </span>
+          <span className={`element-text desktop ${isDarkMode ? "dark" : ""}`}>
+            I enjoy the coding journey and crafting online experiences.
           </span>
         </p>
 
