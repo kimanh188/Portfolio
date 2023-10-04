@@ -1,4 +1,4 @@
-import "./HeaderButtonGroup.style.css";
+import "./headerButtonGroup.style.css";
 
 import { BtnDarkMode } from "./btnDarkMode/btnDarkMode.component";
 import { BtnCTA } from "./btnCTA/btnCTA.component";
