@@ -1,9 +1,9 @@
 import "./projectSlider.style.css";
 
-import { ProjectCard } from "./ProjectCard/projectCard.component";
-
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
+import { ProjectCard } from "./ProjectCard/projectCard.component";
 
 export function ProjectSlider() {
   const projectTechIcons1 = ["fa-html5", "fa-css3-alt", "fa-react"];
@@ -15,7 +15,6 @@ export function ProjectSlider() {
   //react-multi-carousel:
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -24,11 +23,11 @@ export function ProjectSlider() {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 701 },
+      breakpoint: { max: 1024, min: 768 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 701, min: 0 },
+      breakpoint: { max: 768, min: 0 },
       items: 1,
     },
   };

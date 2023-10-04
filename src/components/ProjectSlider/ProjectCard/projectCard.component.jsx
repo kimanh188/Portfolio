@@ -1,8 +1,8 @@
 import "./projectCard.style.css";
 
-import { BtnLinkOut } from "../../Buttons/btnLinkOut/btnLinkOut.component";
-
 import { useContext } from "react";
+
+import { BtnLinkOut } from "../../Buttons/btnLinkOut/btnLinkOut.component";
 import { DarkModeContext } from "./../../../contexts/theme.context";
 
 export function ProjectCard({

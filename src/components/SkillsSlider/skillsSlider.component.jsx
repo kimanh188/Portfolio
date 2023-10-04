@@ -1,7 +1,6 @@
 import "./skillsSlider.style.css";
 
 import { useEffect, useContext } from "react";
-
 import { DarkModeContext } from "./../../contexts/theme.context";
 
 export function SkillsSlider() {

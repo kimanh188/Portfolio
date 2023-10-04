@@ -1,7 +1,8 @@
+import "./../contact.style.css";
+
 import { ContactForm } from "../../../components/ContactForm/contactForm.component";
 import { BtnSocialMedia } from "../../../components/Buttons/btnSocialMedia/btnSocialMedia.component";
 import { BtnDarkMode } from "../../../components/Buttons/HeaderButtonGroup/btnDarkMode/btnDarkMode.component";
-import "./../contact.style.css";
 import { FooterWrapper } from "../../../components/Footer/footer.component";
 
 export function ContactView({ isDarkMode }) {

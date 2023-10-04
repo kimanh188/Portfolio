@@ -1,15 +1,14 @@
 .project-container {
-  margin: 1.5em 0.5em 1.5em 0.5em /* 1.5em 0 */;
+  margin: 1.5em 0.5em 1.5em 0.5em;
   padding: 1em;
   background-color: var(--round-logo-color);
+  box-shadow: 5px 5px 10px rgba(240, 229, 216, 0.5);
   border-radius: 1em;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  box-shadow: 5px 5px 10px rgba(240, 229, 216, 0.5);
 
   .project-img-container {
     height: 40%;
@@ -62,6 +61,7 @@
 
 @media only screen and (min-width: 768px) {
   .project-container {
+    margin: 1.5em 0.5em 2.5em 0.5em;
     flex-direction: row;
     align-items: flex-start;
     gap: 1em;
@@ -82,5 +82,11 @@
         gap: 1em;
       }
     }
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .project-container {
+    max-width: 1450px;
   }
 }

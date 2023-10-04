@@ -1,11 +1,10 @@
 import "./navbar.style.css";
 
 import { NavLink, Outlet } from "react-router-dom";
-
-import { Logo } from "./../Logo/logo.component";
-
 import { useContext } from "react";
 import { DarkModeContext } from "./../../contexts/theme.context";
+
+import { Logo } from "./../Logo/logo.component";
 
 export function NavBarWrapper() {
   const { isDarkMode } = useContext(DarkModeContext);

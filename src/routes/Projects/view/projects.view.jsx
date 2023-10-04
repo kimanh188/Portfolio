@@ -4,13 +4,14 @@ import { HeaderButtonGroup } from "../../../components/Buttons/HeaderButtonGroup
 import { ProjectSlider } from "../../../components/ProjectSlider/projectSlider.component";
 import { ProjectCard } from "../../../components/ProjectSlider/ProjectCard/projectCard.component";
 
-export function ProjectsView({ isDarkMode }) {
-  const projectTechIcons1 = ["fa-html5", "fa-css3-alt", "fa-react"];
-  const projectTechIcons2 = ["fa-html5", "fa-css3-alt", "fa-js"];
-  const projectTechIcons3 = ["fa-html5", "fa-css3-alt", "fa-js"];
-  const projectTechIcons4 = ["fa-html5", "fa-css3-alt", "fa-js"];
-  const projectTechIcons5 = ["fa-html5", "fa-css3-alt"];
-
+export function ProjectsView({
+  isDarkMode,
+  projectTechIcons1,
+  projectTechIcons2,
+  projectTechIcons3,
+  projectTechIcons4,
+  projectTechIcons5,
+}) {
   return (
     <>
       <section className={`projects-section ${isDarkMode ? "dark" : ""}`}>

@@ -5,7 +5,7 @@
   align-items: flex-start;
   height: 100vh;
 
-  .notfound-text {
+  .notFound-text {
     text-align: center;
     color: var(--dark-brown-color);
   }

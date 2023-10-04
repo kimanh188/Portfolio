@@ -1,13 +1,9 @@
-import { BtnLinkOut } from "./../../../components/Buttons/btnLinkOut/btnLinkOut.component";
 import "../privacyPolicy.style.css";
+
+import { BtnLinkOut } from "./../../../components/Buttons/btnLinkOut/btnLinkOut.component";
 import { BtnDarkMode } from "./../../../components/Buttons/HeaderButtonGroup/btnDarkMode/btnDarkMode.component";
 
-import { useContext } from "react";
-import { DarkModeContext } from "./../../../contexts/theme.context";
-
-export function PrivacyView() {
-  const { isDarkMode } = useContext(DarkModeContext);
-
+export function PrivacyView({ isDarkMode }) {
   return (
     <section className={`privacy-section ${isDarkMode ? "dark" : ""}`}>
       <BtnDarkMode />

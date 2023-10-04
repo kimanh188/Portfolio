@@ -1,6 +1,5 @@
 .footer-wrapper {
   width: 100%;
-
   position: fixed;
   bottom: 0;
   left: 50%;
@@ -33,5 +32,29 @@
   .footer-wrapper {
     width: 84%;
     margin-left: 8vw;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .footer-wrapper {
+    .footer-text {
+      font-size: 1.25em;
+    }
+
+    .privacy-link {
+      font-size: 1em;
+    }
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .footer-wrapper {
+    .footer-text {
+      font-size: 1.5em;
+    }
+
+    .privacy-link {
+      font-size: 1.25em;
+    }
   }
 }

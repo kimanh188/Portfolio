@@ -109,3 +109,16 @@
     }
   }
 }
+
+@media only screen and (min-width: 2500px) {
+  .contact-section {
+    .contact-section-content {
+      .contact-wrapper {
+        gap: 3em;
+        .contact-detail-container {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}

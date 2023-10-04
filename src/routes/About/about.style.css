@@ -47,7 +47,16 @@
   .about-section {
     .about-section-content {
       font-size: 1.25em;
-      padding: 2em 5em;
+      padding: 2em 8em;
+    }
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .about-section {
+    .about-section-content {
+      font-size: 1.5em;
+      padding: 2em 12em;
     }
   }
 }
