@@ -47,5 +47,14 @@
         padding: 5em 0;
       }
     }
+
+    .temp-solution-for-standing-ani {
+      position: fixed;
+      bottom: 0;
+      width: 100vw;
+      height: 50px;
+      background-color: var(--background-color);
+      z-index: 99;
+    }
   }
 }

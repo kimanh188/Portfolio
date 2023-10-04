@@ -31,6 +31,7 @@ export function HomeView({ isDarkMode }) {
               <Introduction />
             </div>
           </div>
+          <div className="temp-solution-for-standing-ani"></div>
         </section>
       </div>
 
