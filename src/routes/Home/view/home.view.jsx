@@ -9,28 +9,31 @@ import { FlyingCircles } from "../../../components/HomeAnimation/flyingCircles.c
 export function HomeView({ isDarkMode }) {
   return (
     <>
-      <section className={`home-section-mobile ${isDarkMode ? "dark" : ""}`}>
-        <HeaderButtonGroup />
-
-        <div className="home-content">
-          <Logo />
-          <Introduction />
-        </div>
-
-        <NavBarWrapper />
-      </section>
-
-      <section className={`home-wrapper-desktop ${isDarkMode ? "dark" : ""}`}>
-        <NavBarWrapper />
-
-        <div className="home-section-desktop">
+      <div className="home-route">
+        <section className={`home-section-mobile ${isDarkMode ? "dark" : ""}`}>
           <HeaderButtonGroup />
 
           <div className="home-content">
+            <Logo />
             <Introduction />
           </div>
-        </div>
-      </section>
+
+          <NavBarWrapper />
+        </section>
+
+        <section className={`home-wrapper-desktop ${isDarkMode ? "dark" : ""}`}>
+          <NavBarWrapper />
+
+          <div className="home-section-desktop">
+            <HeaderButtonGroup />
+
+            <div className="home-content">
+              <Introduction />
+            </div>
+          </div>
+        </section>
+      </div>
+
       <FlyingCircles />
     </>
   );

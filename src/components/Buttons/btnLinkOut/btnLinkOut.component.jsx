@@ -12,6 +12,8 @@ export function BtnLinkOut({ link, text, icon, title }) {
     <Link
       className={`linkOut-btn ${isDarkMode ? "dark" : ""}`}
       to={link}
+      target="_blank"
+      rel="noopener noreferrer"
       title={title}
     >
       {text}
