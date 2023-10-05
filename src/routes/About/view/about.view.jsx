@@ -12,19 +12,25 @@ export function AboutView({ isDarkMode }) {
         <div className="about-section-content">
           <h1 className="about-section-title">About me</h1>
           <p className="about-section-text">
-            Hi, I am a web developer based in Munich, and I recently completed
-            the DCI Web Development Coding Course. Throughout the course,
-            I&apos;ve honed my skills in crafting elegant websites and web
-            applications. <br />
-            <br />
-            Passionate about writing clean, high-quality code, my focus is on
-            building solutions that are not only functional but also scalable
-            and easily maintainable.
+            Hi, I&apos;m Kim, a web developer based in Munich. Currently,
+            I&apos;m in the midst of the DCI Web Development Course, set to wrap
+            up in February 2024.
             <br />
             <br />
-            I&apos;m comfortable working on my own, but collaborating with a
-            team also gives me great enjoyment. I&apos;m excited to connect with
-            companies and colleagues that inspire me!
+            Coming from a different academic background and starting this
+            journey a bit later in life, I am genuinely happy with the decision
+            to dive into the world of web development. Learning this has allowed
+            me to align my passion with my profession, and I can&apos;t wait to
+            keep expanding my horizons and acquiring new skills.
+            <br />
+            <br />
+            My goal is to always prioritize attention to detail and strive for
+            code that&apos;s clear, easy to read and easy to work with. I also
+            believe that, besides technical expertise, being a team player and
+            supporting each other are equally vital aspects of a successful
+            career in web development. That&apos;s why I not only enjoy working
+            on my own but also love collaborating together. I can&apos;t wait to
+            connect with amazing companies and colleagues on this exciting path.
           </p>
           <div className="about-section-btn-container">
             <BtnLinkOut
