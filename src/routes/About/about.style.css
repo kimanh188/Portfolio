@@ -51,6 +51,7 @@
       .skillsSlider-container {
         .skillsSlider-text {
           display: block;
+          color: var(--text-color);
         }
       }
     }
