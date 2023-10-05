@@ -96,6 +96,8 @@
 
 @media only screen and (min-width: 768px) {
   .tech-skills {
+    margin: 1em 0 3em 0;
+
     .carousel-container {
       max-width: 1200px;
 

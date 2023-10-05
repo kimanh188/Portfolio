@@ -35,7 +35,13 @@ export function AboutView({ isDarkMode }) {
             />
           </div>
 
-          <SkillsSlider />
+          <div className="skillsSlider-container">
+            <p className="skillsSlider-text">
+              These are, but not limited to, the skills and tools I use to bring
+              ideas to life in the browser:
+            </p>
+            <SkillsSlider />
+          </div>
         </div>
       </section>
     </>

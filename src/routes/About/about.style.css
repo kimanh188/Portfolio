@@ -23,6 +23,14 @@
       margin-top: 1.5em;
       display: flex;
     }
+
+    .skillsSlider-container {
+      margin-top: 2.5em;
+
+      .skillsSlider-text {
+        display: none;
+      }
+    }
   }
 }
 
@@ -39,24 +47,30 @@
       .about-section-text {
         text-align: left;
       }
+
+      .skillsSlider-container {
+        .skillsSlider-text {
+          display: block;
+        }
+      }
     }
   }
-}
 
-@media only screen and (min-width: 1500px) {
-  .about-section {
-    .about-section-content {
-      font-size: 1.25em;
-      padding: 2em 8em;
+  @media only screen and (min-width: 1500px) {
+    .about-section {
+      .about-section-content {
+        font-size: 1.25em;
+        padding: 2em 8em;
+      }
     }
   }
-}
 
-@media only screen and (min-width: 2500px) {
-  .about-section {
-    .about-section-content {
-      font-size: 1.5em;
-      padding: 2em 12em;
+  @media only screen and (min-width: 2500px) {
+    .about-section {
+      .about-section-content {
+        font-size: 1.5em;
+        padding: 2em 12em;
+      }
     }
   }
 }
