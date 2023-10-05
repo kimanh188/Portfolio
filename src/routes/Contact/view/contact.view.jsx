@@ -75,7 +75,7 @@ export function ContactView({ isDarkMode }) {
                 />
 
                 <BtnSocialMedia
-                  link={"#"}
+                  link={"https://github.com/kimanh188"}
                   icon={
                     <svg
                       width="42"

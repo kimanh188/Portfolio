@@ -14,6 +14,8 @@ export function BtnSocialMedia({ link, icon, socialMedia }) {
     <Link
       className={`socialMedia-btn ${socialMedia} ${isDarkMode ? "dark" : ""}`}
       to={link}
+      target="_blank"
+      rel="noopener noreferrer"
       title={titleText}
     >
       {icon}
