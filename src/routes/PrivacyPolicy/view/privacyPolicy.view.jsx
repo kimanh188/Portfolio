@@ -1,7 +1,7 @@
 import "../privacyPolicy.style.css";
 
 import { BtnLinkOut } from "./../../../components/Buttons/btnLinkOut/btnLinkOut.component";
-import { BtnDarkMode } from "./../../../components/Buttons/HeaderButtonGroup/btnDarkMode/btnDarkMode.component";
+import { BtnDarkMode } from "./../../../components/Buttons/btnDarkMode/btnDarkMode.component";
 
 export function PrivacyView({ isDarkMode }) {
   return (

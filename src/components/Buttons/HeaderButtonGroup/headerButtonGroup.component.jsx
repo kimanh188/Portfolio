@@ -1,7 +1,7 @@
 import "./headerButtonGroup.style.css";
 
-import { BtnDarkMode } from "./btnDarkMode/btnDarkMode.component";
-import { BtnCTA } from "./btnCTA/btnCTA.component";
+import { BtnDarkMode } from "./../btnDarkMode/btnDarkMode.component";
+import { BtnCTA } from "../btnCTA/btnContact.component";
 
 export function HeaderButtonGroup() {
   return (

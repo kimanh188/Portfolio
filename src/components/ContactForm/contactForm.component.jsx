@@ -1,4 +1,4 @@
-import { BtnCTA } from "../Buttons/HeaderButtonGroup/btnCTA/btnCTA.component";
+import { BtnSend } from "./../Buttons/btnCTA/btnSend.component";
 import "./contactForm.style.css";
 
 export function ContactForm() {
@@ -39,7 +39,7 @@ export function ContactForm() {
         </div>
       </div>
 
-      <BtnCTA text={"Send"} />
+      <BtnSend />
     </form>
   );
 }
