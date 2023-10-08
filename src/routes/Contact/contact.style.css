@@ -5,6 +5,7 @@
 
   .contact-section-content {
     padding: 2em;
+    margin: 0 auto;
 
     display: flex;
     flex-direction: column;
@@ -20,6 +21,8 @@
   }
 
   .contact-wrapper {
+    width: 100%;
+
     .contact-detail-container {
       .contact-text {
         text-align: justify;
@@ -60,13 +63,13 @@
       .contact-wrapper {
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         gap: 2em;
 
         .contact-detail-container {
           margin-top: 2em;
           line-height: 2;
-          text-align: left;
+
           font-size: 1.2em;
           flex: 1;
 
@@ -97,6 +100,16 @@
   }
 }
 
+@media only screen and (min-width: 1350px) {
+  .contact-section {
+    .contact-section-content {
+      .contact-wrapper {
+        max-width: 1000px;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 1500px) {
   .contact-section {
     .contact-section-content {
@@ -115,6 +128,8 @@
     .contact-section-content {
       .contact-wrapper {
         gap: 3em;
+        max-width: 1350px;
+
         .contact-detail-container {
           font-size: 1.5em;
         }

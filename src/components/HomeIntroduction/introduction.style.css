@@ -155,7 +155,11 @@
     width: 50vw;
     font-size: 1.25em;
     line-height: 1.5;
+  }
+}
 
+@media only screen and (min-width: 1200px) {
+  .home-text {
     .mobile {
       display: none;
     }
@@ -163,5 +167,12 @@
     .desktop {
       display: block;
     }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .home-text {
+    font-size: 1.5em;
+    line-height: 1.5;
   }
 }
