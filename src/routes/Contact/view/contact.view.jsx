@@ -5,7 +5,14 @@ import { BtnSocialMedia } from "../../../components/Buttons/btnSocialMedia/btnSo
 import { BtnDarkMode } from "../../../components/Buttons/btnDarkMode/btnDarkMode.component";
 import { FooterWrapper } from "../../../components/Footer/footer.component";
 
-export function ContactView({ isDarkMode }) {
+export function ContactView({
+  isDarkMode,
+  copyPhoneHandler,
+  copyEmailHandler,
+  keyDownHandler,
+  phoneNumber,
+  email,
+}) {
   return (
     <>
       <section className={`contact-section ${isDarkMode ? "dark" : ""}`}>
@@ -36,7 +43,15 @@ export function ContactView({ isDarkMode }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  <p>0157 5855 2369</p>
+                  <span
+                    onClick={copyPhoneHandler}
+                    onKeyDown={(e) => keyDownHandler(e, phoneNumber)}
+                    tabIndex={0}
+                    role="button"
+                    title="Click to copy"
+                  >
+                    {phoneNumber}
+                  </span>
                 </div>
 
                 <div className="contact-item">
@@ -51,7 +66,15 @@ export function ContactView({ isDarkMode }) {
                       d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 4.99L4 6h16zm0 12H4V8l8 5l8-5v10z"
                     />
                   </svg>
-                  <p>kimanh188.de@gmail.com</p>
+                  <span
+                    onClick={copyEmailHandler}
+                    onKeyDown={(e) => keyDownHandler(e, email)}
+                    tabIndex={0}
+                    role="button"
+                    title="Click to copy"
+                  >
+                    {email}
+                  </span>
                 </div>
               </div>
 
