@@ -16,6 +16,7 @@ export function Project2() {
       ))}
       projectLiveLink={"https://kimanh188.github.io/CalculatorApp/"}
       projectSourceLink={"https://github.com/kimanh188/CalculatorApp"}
+      inProgress={false}
     />
   );
 }

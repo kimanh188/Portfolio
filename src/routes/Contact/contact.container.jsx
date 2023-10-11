@@ -26,7 +26,7 @@ export function ContactContainer() {
     }
   };
 
-  const phoneNumber = "0157 5855 2369";
+  const phoneNumber = "015758552369";
   const email = "kimanh188.de@gmail.com";
 
   const copyPhoneHandler = (event) => {

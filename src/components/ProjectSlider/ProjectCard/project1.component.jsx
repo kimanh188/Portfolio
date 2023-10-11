@@ -16,6 +16,7 @@ export function Project1() {
       ))}
       projectLiveLink={"https://todo-y3ip.onrender.com/"}
       projectSourceLink={"https://github.com/kimanh188/ToDo-App"}
+      inProgress={true}
     />
   );
 }

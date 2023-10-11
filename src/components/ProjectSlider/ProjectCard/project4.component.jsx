@@ -16,6 +16,7 @@ export function Project4() {
       ))}
       projectLiveLink={"https://kimanh188.github.io/WeatherApp/"}
       projectSourceLink={"https://github.com/kimanh188/WeatherApp"}
+      inProgress={false}
     />
   );
 }

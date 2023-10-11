@@ -20,6 +20,7 @@ export function Project5() {
       projectSourceLink={
         "https://github.com/kimanh188/HuddleLandingPage_Challenge"
       }
+      inProgress={false}
     />
   );
 }

@@ -13,6 +13,7 @@ export function ProjectCard({
   projectTechIcons,
   projectLiveLink,
   projectSourceLink,
+  inProgress,
 }) {
   const { isDarkMode } = useContext(DarkModeContext);
 
@@ -24,7 +25,11 @@ export function ProjectCard({
 
       <div className="project-overview">
         <div className="project-intro">
-          <h4 className="project-name">{projectName}</h4>
+          <div className="project-name">
+            <h4>{projectName}</h4>
+            {inProgress && <span className="in-progress"> in progress</span>}
+          </div>
+
           <p>{projectDescription}</p>
         </div>
 

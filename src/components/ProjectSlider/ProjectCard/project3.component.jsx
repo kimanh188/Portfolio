@@ -16,6 +16,7 @@ export function Project3() {
       ))}
       projectLiveLink={"https://kimanh188.github.io/ImageSearch-Unsplash/"}
       projectSourceLink={"https://github.com/kimanh188/ImageSearch-Unsplash"}
+      inProgress={false}
     />
   );
 }
