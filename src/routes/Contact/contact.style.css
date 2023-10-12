@@ -35,12 +35,19 @@
         .contact-item {
           color: var(--text-color);
           display: flex;
-          align-items: baseline;
+          align-items: center;
           justify-content: flex-start;
           gap: 0.5em;
+          margin-bottom: 0.5em;
 
           &:hover {
             cursor: pointer;
+            color: var(--section-title-color);
+          }
+
+          .contact-detail-icons {
+            width: 35px;
+            height: 35px;
           }
         }
       }

@@ -18,7 +18,7 @@ export function BtnSocialMedia({ link, icon, socialMedia }) {
       rel="noopener noreferrer"
       title={titleText}
     >
-      {icon}
+      <img className="social-icons" src={icon} alt={icon} />
     </Link>
   );
 }

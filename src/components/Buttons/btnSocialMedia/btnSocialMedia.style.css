@@ -14,12 +14,7 @@
   fill: var(--accent-color-orange);
 }
 
-.dark {
-  .socialMedia-btn svg path {
-    fill: #93b1a6;
-  }
-
-  .socialMedia-btn:hover svg path {
-    fill: #89a44c;
-  }
+.social-icons {
+  width: 45px;
+  height: 45px;
 }
