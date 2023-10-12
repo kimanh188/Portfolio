@@ -39,9 +39,9 @@
           justify-content: flex-start;
           gap: 0.5em;
           margin-bottom: 0.5em;
+          cursor: pointer;
 
           &:hover {
-            cursor: pointer;
             color: var(--section-title-color);
           }
 
