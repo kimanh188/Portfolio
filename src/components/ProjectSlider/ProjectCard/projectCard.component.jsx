@@ -30,7 +30,7 @@ export function ProjectCard({
             {inProgress && <span className="in-progress"> in progress</span>}
           </div>
 
-          <p>{projectDescription}</p>
+          <p className="project-description">{projectDescription}</p>
         </div>
 
         <div className="project-used-tech">

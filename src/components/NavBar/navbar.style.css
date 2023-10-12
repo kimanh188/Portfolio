@@ -80,6 +80,10 @@
           background-color: transparent;
           padding: 0.2em 0.5em;
           border-radius: 1em;
+
+          &:hover {
+            color: var(--accent-color-orange);
+          }
         }
       }
 
@@ -87,6 +91,7 @@
         .nav-button-text {
           color: var(--accent-color-orange);
           background-color: var(--white-color);
+          box-shadow: var(--round-logo-box-shadow);
           padding: 0.2em 0.5em;
           border-radius: 1em;
         }

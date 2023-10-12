@@ -14,6 +14,7 @@
   --accent-color-orange: #ee7d52;
 
   --round-logo-color: #e8dcd6;
+  --round-logo-box-shadow: 6px 6px 8px rgba(128, 81, 62, 0.4);
 
   --secondary-color-pale-green: #edf2e2;
 
@@ -31,6 +32,7 @@
   --background-color-navbar: #263a29;
 
   --round-logo-color: #352f44;
+  --round-logo-box-shadow: 6px 6px 10px rgba(117, 117, 117, 0.25);
 
   --section-title-color: #89a44c;
   --text-color: #f2e3db;

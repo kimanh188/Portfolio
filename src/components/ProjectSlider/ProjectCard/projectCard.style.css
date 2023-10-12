@@ -41,6 +41,10 @@
           color: var(--section-title-color);
         }
       }
+
+      .project-description {
+        height: 145px;
+      }
     }
 
     .project-used-tech {
@@ -68,6 +72,42 @@
   }
 }
 
+@media only screen and (min-width: 380px) {
+  .project-container {
+    .project-overview {
+      .project-intro {
+        .project-description {
+          height: 125px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .project-container {
+    .project-overview {
+      .project-intro {
+        .project-description {
+          height: 105px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .project-container {
+    .project-overview {
+      .project-intro {
+        .project-description {
+          height: 80px;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .project-container {
     margin: 1.5em 0.5em 2.5em 0.5em;
@@ -77,12 +117,18 @@
     width: 100%;
 
     .project-img-container {
-      flex: 1;
+      flex: 1.5;
       height: 100%;
     }
 
     .project-overview {
       flex: 1;
+
+      .project-intro {
+        .project-description {
+          height: auto;
+        }
+      }
 
       .project-buttons {
         display: flex;
@@ -94,7 +140,7 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .project-container {
     margin: 1.5em 0.5em 2.5em 0.5em;
     flex-direction: row;
