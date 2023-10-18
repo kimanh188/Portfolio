@@ -9,7 +9,7 @@ export function Project1() {
       imgSrc={"project1-mockup.png"}
       projectName={"Todo List"}
       projectDescription={
-        "A todo list web application - my very first project using React and Vite. By implementing CRUD (Create, Read, Update, Delete) functionality, this Todo List project has strengthened my understanding of React and its core concepts."
+        "A to-do list application - my very first project using React and Vite when I began familiarizing myself with React. This project strengthened my understanding of React and its core concept of components."
       }
       projectTechIcons={projectTechIcons1.map((iconClass, index) => (
         <i key={index} className={`fa-brands ${iconClass}`} />
