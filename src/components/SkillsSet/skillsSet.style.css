@@ -1,0 +1,73 @@
+.tech-skills {
+  margin: 3em 0;
+  width: 100%;
+
+  color: var(--text-color);
+
+  .skillSet {
+    padding-bottom: 1em;
+
+    .skillSet-h4 {
+      color: var(--section-title-color);
+    }
+    .skill-icons-container {
+      margin: 1em 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1.25em;
+
+      .skill-icon {
+        width: 35px;
+        height: 35px;
+        transition: transform 0.3s;
+
+        &:hover {
+          transform: scale(1.25);
+        }
+      }
+
+      .learning-skill {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.dark {
+}
+
+@media only screen and (min-width: 768px) {
+  .tech-skills {
+    margin: 1em 0 3em 0;
+
+    /* .carousel-container {
+      max-width: 1200px;
+    } */
+
+    .skillSet {
+      .skill-icons-container {
+        .skill-icon {
+          width: 42px;
+          height: 42px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .tech-skills {
+    /*  .carousel-container {
+      max-width: 2000px;
+    } */
+    .skillSet {
+      .skill-icons-container {
+        .skill-icon {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}

@@ -69,7 +69,7 @@ export function Introduction() {
             {">"}
           </span>
           <span className={`element-text ${isDarkMode ? "dark" : ""}`}>
-            I’m Kim, a <span className="emphasis">web developer</span> .
+            I’m Kim, a <span className="emphasis"> web developer</span> .
           </span>
           <span className={`bracket-color ${isDarkMode ? "dark" : ""}`}>
             {"</"}

@@ -1,8 +1,8 @@
 import "../about.style.css";
 
-import { HeaderButtonGroup } from "../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component";
-import { BtnLinkOut } from "../../../components/Buttons/btnLinkOut/btnLinkOut.component";
-import { SkillsSlider } from "../../../components/SkillsSlider/skillsSlider.component";
+import { HeaderButtonGroup } from "../../../components/Buttons/HeaderButtonGroup/headerButtonGroup.component.jsx";
+import { BtnLinkOut } from "../../../components/Buttons/btnLinkOut/btnLinkOut.component.jsx";
+import { SkillsSet } from "../../../components/SkillsSet/skillsSet.component.jsx";
 
 export function AboutView({ isDarkMode }) {
   return (
@@ -41,12 +41,12 @@ export function AboutView({ isDarkMode }) {
             />
           </div>
 
-          <div className="skillsSlider-container">
-            <p className="skillsSlider-text">
+          <div className="skillsSet-container">
+            <p className={`skillsSet-text ${isDarkMode ? "dark" : ""}`}>
               These are, but not limited to, the skills and tools I use to bring
               ideas to life in the browser:
             </p>
-            <SkillsSlider />
+            <SkillsSet />
           </div>
         </div>
       </section>

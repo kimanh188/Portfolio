@@ -1,7 +1,7 @@
 .about-section {
   background-color: var(--background-color);
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   .about-section-content {
     padding: 2em;
@@ -25,10 +25,10 @@
       display: flex;
     }
 
-    .skillsSlider-container {
+    .skillsSet-container {
       margin-top: 2.5em;
 
-      .skillsSlider-text {
+      .skillsSet-text {
         color: var(--text-color);
         display: none;
       }
@@ -47,8 +47,8 @@
       padding: 2em 3em;
       font-size: 1.1em;
 
-      .skillsSlider-container {
-        .skillsSlider-text {
+      .skillsSet-container {
+        .skillsSet-text {
           display: block;
         }
       }
