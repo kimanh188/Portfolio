@@ -17,11 +17,14 @@ export function AboutView({ isDarkMode }) {
             up in February 2024.
             <br />
             <br />
-            Coming from a different academic background and starting this
-            journey a bit later in life, I am genuinely happy with the decision
-            to dive into the world of web development. Learning this has allowed
-            me to align my passion with my profession, and I can&apos;t wait to
-            keep expanding my horizons and acquiring new skills.
+            Coming from a different academic background in economics and audit
+            and starting this journey a bit later in life, I am truly happy with
+            the decision to dive into the world of web development. My prior
+            experience has equipped me with valuable skills such as precision,
+            agility, and a strong customer-oriented mindset, which I am eager to
+            apply in this field. Learning web development has allowed me to
+            align my passion with my profession, and I can&apos;t wait to keep
+            expanding my horizons and acquiring new skills.
             <br />
             <br />
             My goal is to always prioritize attention to detail and strive for
