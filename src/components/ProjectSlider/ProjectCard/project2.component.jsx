@@ -9,7 +9,7 @@ export function Project2() {
       imgSrc={"project2-mockup.png"}
       projectName={"Calculator App"}
       projectDescription={
-        "A functional calculator app with a unique feature: a color picker that empowers users to select from 5 distinct color palettes. This project not only helped me become acquainted with JavaScript but also allowed me to practice and enhance my skills in CSS."
+        "A calculator app with a unique feature: a color picker that allows users to customize the app's visual style according to their preferences by selecting from 5 distinct color palettes,. This project not only helped me become acquainted with JavaScript but also allowed me to practice and enhance my skills in CSS."
       }
       projectTechIcons={projectTechIcons2.map((iconClass, index) => (
         <i key={index} className={`fa-brands ${iconClass}`} />

@@ -9,14 +9,14 @@ export function Project1() {
       imgSrc={"project1-mockup.png"}
       projectName={"Todo List"}
       projectDescription={
-        "A to-do list application - my very first project using React and Vite when I began familiarizing myself with React. This project strengthened my understanding of React and its core concept of components."
+        "This project represents an 'upgraded' version of my very first React project, Todo-App - a CRUD application. Users can not only add, check off, edit, and delete todos but also log in using their Google accounts. This experience significantly bolstered my understanding of React and familiarized me with Firebase."
       }
       projectTechIcons={projectTechIcons1.map((iconClass, index) => (
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}
-      projectLiveLink={"https://todo-y3ip.onrender.com/"}
-      projectSourceLink={"https://github.com/kimanh188/ToDo-App"}
-      inProgress={true}
+      projectLiveLink={"https://todoappv2-3a4z.onrender.com"}
+      projectSourceLink={"https://github.com/kimanh188/Todo-App2"}
+      inProgress={false}
     />
   );
 }
