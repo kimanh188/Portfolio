@@ -27,7 +27,7 @@ export function ContactContainer() {
   };
 
   const phoneNumber = "015758552369";
-  const email = "kimanh188.de@gmail.com";
+  const email = "kimanhdo.dev@gmail.com";
 
   const copyPhoneHandler = (event) => {
     copyToClipboard(phoneNumber);
