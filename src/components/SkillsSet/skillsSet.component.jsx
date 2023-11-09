@@ -100,16 +100,16 @@ export function SkillsSet() {
             title="MongoDB"
           />
           <img
-            className="skill-icon learning-skill"
+            className="skill-icon"
             src={mySQLIcon}
             alt="mySQL icon"
-            title="MySQL - learning"
+            title="MySQL"
           />
           <img
-            className="skill-icon learning-skill"
+            className="skill-icon"
             src={mongooseIcon}
             alt="mongoose icon"
-            title="Mongoose - learning"
+            title="Mongoose"
           />
           <img
             className="skill-icon"
