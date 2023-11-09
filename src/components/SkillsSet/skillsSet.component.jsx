@@ -146,7 +146,3 @@ export function SkillsSet() {
     </div>
   );
 }
-
-{
-  /*  <div className={`carousel-container  ${isDarkMode ? "dark" : ""}`}> */
-}
