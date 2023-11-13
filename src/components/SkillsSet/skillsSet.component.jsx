@@ -70,10 +70,10 @@ export function SkillsSet() {
           />
 
           <img
-            className="skill-icon learning-skill"
+            className="skill-icon"
             src={nextJSIcon}
             alt="nextJS icon"
-            title="NextJS - learning"
+            title="Next.js"
           />
         </div>
       </div>
