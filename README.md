@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! This project serves as a personal portfolio website, showcasing my skills and experience as a web developer. Built using React and Vite, this dynamic and responsive website highlights my projects, provides a brief overview of my expertise, and offers contact information for potential collaborations.
 
+[Live Site](https://kimsportfolio.vercel.app)
+
 ## Features
 
 - **Responsive Design:** The portfolio is designed to be visually appealing and accessible across various devices.
@@ -18,11 +20,5 @@ Welcome to my portfolio! This project serves as a personal portfolio website, sh
 - Vite
 - CSS
 - HTML
-
-## Getting Started
-
-To view the live portfolio website, simply visit the following URL:
-
-[Live Site](https://kimsportfolio.vercel.app)
 
 Thank you for exploring my portfolio!
