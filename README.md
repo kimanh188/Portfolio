@@ -25,24 +25,4 @@ To view the live portfolio website, simply visit the following URL:
 
 [Live Site](https://kimsportfolio.vercel.app)
 
-Alternatively, you can follow these steps to run the development server locally:
-
-1. Clone the repository: Clone the project repository from GitHub using the following command in the terminal:
-
-```bash
-git clone git@github.com:kimanh188/Portfolio.git
-```
-
-2. Navigate to the project directory and install npm dependencies:
-
-```bash
-npm install
-```
-
-3. Launch the development server using the following command in the terminal:
-
-```bash
-npm run dev
-```
-
 Thank you for exploring my portfolio!
