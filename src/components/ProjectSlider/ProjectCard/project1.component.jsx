@@ -14,7 +14,7 @@ export function Project1() {
       projectTechIcons={projectTechIcons1.map((iconClass, index) => (
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}
-      projectLiveLink={"https://todoappv2-3a4z.onrender.com"}
+      projectLiveLink={"https://todo-app2-alpha.vercel.app/"}
       projectSourceLink={"https://github.com/kimanh188/Todo-App2"}
       inProgress={false}
     />

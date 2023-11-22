@@ -14,7 +14,7 @@ export function Project3() {
       projectTechIcons={projectTechIcons3.map((iconClass, index) => (
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}
-      projectLiveLink={"https://image-search-unsplash-eight.vercel.app/"}
+      projectLiveLink={"https://image-search-unsplash-sandy.vercel.app"}
       projectSourceLink={"https://github.com/kimanh188/ImageSearch-Unsplash"}
       inProgress={false}
     />
