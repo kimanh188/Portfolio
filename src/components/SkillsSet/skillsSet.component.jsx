@@ -20,6 +20,7 @@ import mongodbIcon from "../../assets/svg-icons/mongodb.svg";
 import mySQLIcon from "../../assets/svg-icons/mysql.svg";
 import mongooseIcon from "../../assets/svg-icons/mongoose.svg";
 import vsCodeIcon from "../../assets/svg-icons/vscode.svg";
+import typescriptIcon from "../../assets/svg-icons/typescript.svg";
 
 export function SkillsSet() {
   const { isDarkMode } = useContext(DarkModeContext);
@@ -74,6 +75,13 @@ export function SkillsSet() {
             src={nextJSIcon}
             alt="nextJS icon"
             title="Next.js"
+          />
+
+          <img
+            className="skill-icon"
+            src={typescriptIcon}
+            alt="typescript icon"
+            title="TypeScript"
           />
         </div>
       </div>
