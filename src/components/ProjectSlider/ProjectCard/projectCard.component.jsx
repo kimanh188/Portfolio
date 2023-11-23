@@ -10,6 +10,7 @@ export function ProjectCard({
   imgSrc,
   projectName,
   projectDescription,
+  projectDescriptionOptional,
   projectTechIcons,
   projectLiveLink,
   projectSourceLink,
@@ -30,7 +31,9 @@ export function ProjectCard({
             {inProgress && <span className="in-progress"> in progress</span>}
           </div>
 
-          <p className="project-description">{projectDescription}</p>
+          <p className="project-description">{projectDescription} </p>
+          <br />
+          <p className="project-description">{projectDescriptionOptional} </p>
         </div>
 
         <div className="project-used-tech">

@@ -11,6 +11,7 @@ export function Project5() {
       projectDescription={
         "A challenge from Frontend Mentor and also my very first project. The goal is to build out the responsive landing page, get it looking as close to the design as possible. Besides coding, I practiced the preparation steps and learnt time management."
       }
+      projectDescriptionOptional={""}
       projectTechIcons={projectTechIcons5.map((iconClass, index) => (
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}

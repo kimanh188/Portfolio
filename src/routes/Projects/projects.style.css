@@ -19,6 +19,10 @@
     .project-section-text {
       text-align: justify;
       color: var(--text-color);
+
+      .github-link {
+        color: var(--accent-color-orange);
+      }
     }
 
     .project-cards-container-desktop {

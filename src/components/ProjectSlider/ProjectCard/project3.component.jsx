@@ -9,8 +9,9 @@ export function Project3() {
       imgSrc={"project3-mockup.png"}
       projectName={"Image Search API"}
       projectDescription={
-        "A simple yet efficient image search engine using Unsplash API and also my first project using fetch API. Leveraging the extensive image repository of Unsplash, it offers users a platform to search and discover a diverse range of high-quality images."
+        "A simple yet efficient image search engine using Unsplash API and also my first project using fetch API. Leveraging the extensive image repository of Unsplash, it offers users a platform to search, download and discover a diverse range of high-quality images."
       }
+      projectDescriptionOptional={""}
       projectTechIcons={projectTechIcons3.map((iconClass, index) => (
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ProjectsView } from "./view/projects.view.jsx";
 
 import { useContext } from "react";

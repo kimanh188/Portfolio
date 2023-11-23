@@ -34,8 +34,8 @@ export function ProjectSlider() {
     <div className="project-slider">
       <Carousel showDots={true} responsive={responsive}>
         <Project1 />
-        <Project2 />
         <Project3 />
+        <Project2 />
         <Project4 />
         <Project5 />
       </Carousel>
