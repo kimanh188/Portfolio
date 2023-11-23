@@ -37,7 +37,9 @@ export function AboutView({ isDarkMode }) {
           </p>
           <div className="about-section-btn-container">
             <BtnLinkOut
-              link={"#"}
+              link={
+                "https://drive.google.com/file/d/10inMM1RXW4HN64rd22wloKaLonK87h03/view?usp=sharing"
+              }
               text={"View my resume "}
               icon={<i className="btn-icon fa-solid fa-download"></i>}
               title={"Click to open my resume as a PDF."}
