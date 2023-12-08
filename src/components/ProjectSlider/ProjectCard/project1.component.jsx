@@ -11,9 +11,7 @@ export function Project1() {
       projectDescription={
         "This project represents an 'upgraded' version of my very first React project, Todo-App - a CRUD application. Users can not only add, check off, edit, and delete todos but also log in using their Google accounts. This experience significantly bolstered my understanding of React and familiarized me with Firebase."
       }
-      projectDescriptionOptional={
-        "Email: testuser.todo2@gmail.com, password: test1234! can be used to log in and explore the app."
-      }
+      projectDescriptionOptional={""}
       projectTechIcons={projectTechIcons1.map((iconClass, index) => (
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}
