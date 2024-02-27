@@ -12,9 +12,8 @@ export function AboutView({ isDarkMode }) {
         <div className="about-section-content">
           <h1 className="about-section-title">About me</h1>
           <p className="about-section-text">
-            Hi, I&apos;m Kim, a web developer based in Munich. Currently,
-            I&apos;m in the midst of the DCI Web Development Course, set to wrap
-            up in February 2024.
+            Hi, I&apos;m Kim, a web developer based in Munich. I recently
+            completed the DCI Web Development Course in February 2024.
             <br />
             <br />
             Coming from a different academic background in economics and audit
