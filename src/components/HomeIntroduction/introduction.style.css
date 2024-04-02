@@ -27,45 +27,45 @@
   }
 
   .line1 {
-    animation: typing 3s steps(50) forwards;
+    animation: typing 1.5s steps(50) forwards;
   }
   .line2 {
-    animation: typing 3s steps(50) 1.5s forwards;
+    animation: typing 1.5s steps(50) 0.75s forwards;
   }
   .line3 {
-    animation: typing 3s steps(50) 2s forwards;
+    animation: typing 1.5s steps(50) 1s forwards;
   }
   .line4 {
-    animation: typing 3s steps(50) 2.3s forwards;
+    animation: typing 1.5s steps(50) 1.15s forwards;
   }
   .line5 {
-    animation: typing 3s steps(50) 4s forwards;
+    animation: typing 1.5s steps(50) 2s forwards;
   }
   .line6 {
-    animation: typing 3s steps(50) 6s forwards;
+    animation: typing 1.5s steps(50) 3s forwards;
   }
   .line7 {
-    animation: typing 3s steps(50) 6.5s forwards;
+    animation: typing 1.5s steps(50) 3.25s forwards;
   }
   .line8 {
-    animation: typing 3s steps(50) 8.8s forwards;
+    animation: typing 1.5s steps(50) 4.4s forwards;
   }
 
   .line9 {
-    animation: typing 3s steps(50) 9s forwards;
+    animation: typing 1.5s steps(50) 4.5s forwards;
   }
 
   .line10 {
-    animation: typing 3s steps(50) 10.5s forwards;
+    animation: typing 1.5s steps(50) 5.25s forwards;
   }
   .line11 {
-    animation: typing 3s steps(50) 11s forwards;
+    animation: typing 1.5s steps(50) 5.5s forwards;
   }
   .line12 {
-    animation: typing 3s steps(50) 11.5s forwards;
+    animation: typing 1.5s steps(50) 5.75s forwards;
   }
   .line13 {
-    animation: typing 3s steps(50) 12s forwards;
+    animation: typing 1.5s steps(50) 6s forwards;
   }
 
   .m-left-1 {
