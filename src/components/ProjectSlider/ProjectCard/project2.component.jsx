@@ -16,6 +16,7 @@ export function Project2() {
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}
       projectLiveLink={"https://kimanh188.github.io/CalculatorApp/"}
+      liveLinkHidden={false}
       projectSourceLink={"https://github.com/kimanh188/CalculatorApp"}
       inProgress={false}
     />

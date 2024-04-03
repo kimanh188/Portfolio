@@ -16,6 +16,7 @@ export function Project1() {
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}
       projectLiveLink={"https://todo-app2-alpha.vercel.app/"}
+      liveLinkHidden={false}
       projectSourceLink={"https://github.com/kimanh188/Todo-App2"}
       inProgress={false}
     />

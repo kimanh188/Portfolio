@@ -46,6 +46,7 @@ export function PrivacyView({ isDarkMode }) {
             text={"Back"}
             icon={""}
             title={"Back to Contact"}
+            isHidden={false}
           />
         </div>
       </div>

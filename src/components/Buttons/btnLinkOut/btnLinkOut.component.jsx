@@ -5,8 +5,12 @@ import { DarkModeContext } from "./../../../contexts/theme.context";
 
 import { Link } from "react-router-dom";
 
-export function BtnLinkOut({ link, text, icon, title }) {
+export function BtnLinkOut({ link, text, icon, title, isHidden }) {
   const { isDarkMode } = useContext(DarkModeContext);
+
+  if (isHidden) {
+    return null;
+  }
 
   return (
     <Link

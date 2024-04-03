@@ -8,6 +8,7 @@ import { Project2 } from "./ProjectCard/project2.component";
 import { Project3 } from "./ProjectCard/project3.component";
 import { Project4 } from "./ProjectCard/project4.component";
 import { Project5 } from "./ProjectCard/project5.component";
+import { Project6 } from "./ProjectCard/project6.component.jsx";
 
 export function ProjectSlider() {
   //react-multi-carousel:
@@ -33,6 +34,7 @@ export function ProjectSlider() {
   return (
     <div className="project-slider">
       <Carousel showDots={true} responsive={responsive}>
+        <Project6 />
         <Project1 />
         <Project3 />
         <Project2 />

@@ -18,6 +18,7 @@ export function Project5() {
       projectLiveLink={
         "https://kimanh188.github.io/HuddleLandingPage_Challenge/"
       }
+      liveLinkHidden={false}
       projectSourceLink={
         "https://github.com/kimanh188/HuddleLandingPage_Challenge"
       }

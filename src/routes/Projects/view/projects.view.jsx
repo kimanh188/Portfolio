@@ -8,6 +8,7 @@ import { Project2 } from "./../../../components/ProjectSlider/ProjectCard/projec
 import { Project3 } from "./../../../components/ProjectSlider/ProjectCard/project3.component";
 import { Project4 } from "./../../../components/ProjectSlider/ProjectCard/project4.component";
 import { Project5 } from "./../../../components/ProjectSlider/ProjectCard/project5.component";
+import { Project6 } from "./../../../components/ProjectSlider/ProjectCard/project6.component.jsx";
 
 export function ProjectsView({ isDarkMode }) {
   return (
@@ -33,6 +34,7 @@ export function ProjectsView({ isDarkMode }) {
           <ProjectSlider />
 
           <div className="project-cards-container-desktop">
+            <Project6 />
             <Project1 />
             <Project3 />
             <Project2 />

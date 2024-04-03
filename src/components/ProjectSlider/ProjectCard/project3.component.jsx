@@ -16,6 +16,7 @@ export function Project3() {
         <i key={index} className={`fa-brands ${iconClass}`} />
       ))}
       projectLiveLink={"https://image-search-unsplash-sandy.vercel.app"}
+      liveLinkHidden={false}
       projectSourceLink={"https://github.com/kimanh188/ImageSearch-Unsplash"}
       inProgress={false}
     />

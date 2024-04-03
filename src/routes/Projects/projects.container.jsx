@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { DarkModeContext } from "./../../contexts/theme.context";
 
 export function ProjectsContainer() {
+  const projectTechIcons6 = ["fa-react"];
   const projectTechIcons1 = ["fa-html5", "fa-css3-alt", "fa-react"];
   const projectTechIcons2 = ["fa-html5", "fa-css3-alt", "fa-js"];
   const projectTechIcons3 = ["fa-html5", "fa-css3-alt", "fa-js"];
@@ -16,6 +17,7 @@ export function ProjectsContainer() {
   return (
     <ProjectsView
       isDarkMode={isDarkMode}
+      projectTechIcons6={projectTechIcons6}
       projectTechIcons1={projectTechIcons1}
       projectTechIcons2={projectTechIcons2}
       projectTechIcons3={projectTechIcons3}
