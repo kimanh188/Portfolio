@@ -12,8 +12,8 @@ export function AboutView({ isDarkMode }) {
         <div className="about-section-content">
           <h1 className="about-section-title">About me</h1>
           <p className="about-section-text">
-            Hi, I&apos;m Kim, a web developer based in Munich. I recently
-            completed the DCI Web Development Course in February 2024.
+            Hi, I&apos;m Kim, a web developer based in Munich. I completed the
+            DCI Web Development Course in February 2024.
             <br />
             <br />
             Coming from a different academic background in economics and audit
@@ -30,11 +30,9 @@ export function AboutView({ isDarkMode }) {
             code that&apos;s clear, easy to read and easy to work with. I also
             believe that, besides technical expertise, being a team player and
             supporting each other are equally vital aspects of a successful
-            career in web development. That&apos;s why I not only enjoy working
-            on my own but also love collaborating together. I can&apos;t wait to
-            connect with amazing companies and colleagues on this exciting path.
+            career in web development.
           </p>
-          <div className="about-section-btn-container">
+          {/* <div className="about-section-btn-container">
             <BtnLinkOut
               link={
                 "https://drive.google.com/file/d/1A6enuOlLKRZeMTeGAlmMqcR535Gn7bQS/view?usp=sharing"
@@ -44,7 +42,7 @@ export function AboutView({ isDarkMode }) {
               title={"Click to open my resume as a PDF."}
               isHidden={false}
             />
-          </div>
+          </div> */}
 
           <div className="skillsSet-container">
             <p className={`skillsSet-text ${isDarkMode ? "dark" : ""}`}>

@@ -35,7 +35,7 @@ export function ContactView({
               </p>
 
               <div className="contact-details">
-                <div className="contact-item">
+                {/* <div className="contact-item">
                   <img
                     className="contact-detail-icons"
                     src={mobileIcon}
@@ -51,7 +51,7 @@ export function ContactView({
                   >
                     {phoneNumber}
                   </span>
-                </div>
+                </div> */}
 
                 <div className="contact-item">
                   <img
